@@ -28,25 +28,27 @@ public class Main {
             Counter contadorModified = new Counter();
             Counter contador3 = new Counter();
             Counter contador4 = new Counter();
+            int cantHilosProc2 = 4;
 
-            /***
-             * El contenedor de imagenes.
-             */
+        /***
+         * El contenedor de imagenes.
+         */
             ContImg cont = new ContImg(ListaCopia);
 
             /**
              * La instanciación de todos los procesos.
              */
-            Process1 P11 = new Process1(cont, contador1);
-            Process1 P12 = new Process1(cont, contador1);
+            Process1 P11 = new Process1(cont, contador1,cantHilosProc2);
+            Process1 P12 = new Process1(cont, contador1,cantHilosProc2);
 
-            Process2 P21 = new Process2(cont, contador2, contadorModified);
-            Process2 P22 = new Process2(cont, contador2, contadorModified);
-            Process2 P23 = new Process2(cont, contador2, contadorModified);
+            Process2 P21 = new Process2(cont, contador2, contadorModified,cantHilosProc2);
+            Process2 P22 = new Process2(cont, contador2, contadorModified,cantHilosProc2);
+            Process2 P23 = new Process2(cont, contador2, contadorModified,cantHilosProc2);
+            Process2 P24 = new Process2(cont, contador2, contadorModified,cantHilosProc2);
 
-            Process3 P31 = new Process3(cont, contador3);
-            Process3 P32 = new Process3(cont, contador3);
-            Process3 P33 = new Process3(cont, contador3);
+            Process3 P31 = new Process3(cont, contador3,cantHilosProc2);
+            Process3 P32 = new Process3(cont, contador3,cantHilosProc2);
+            Process3 P33 = new Process3(cont, contador3,cantHilosProc2);
 
             Process4 P41 = new Process4(cont, contador4);
             Process4 P42 = new Process4(cont, contador4);
@@ -58,6 +60,7 @@ public class Main {
             Thread thread21 = new Thread(P21, "Hilo 21");
             Thread thread22 = new Thread(P22, "Hilo 22");
             Thread thread23 = new Thread(P23, "Hilo 23");
+            Thread thread24 = new Thread(P24, "Hilo 24");
 
             Thread thread31 = new Thread(P31, "Hilo 31");
             Thread thread32 = new Thread(P32, "Hilo 32");
@@ -70,18 +73,19 @@ public class Main {
              * Array de hilos para luego escribir su estado en el log.
              */
             Thread threads[];
-            threads = new Thread[10];
+            threads = new Thread[11];
 
             threads[0] = thread11;
             threads[1] = thread12;
             threads[2] = thread21;
             threads[3] = thread22;
             threads[4] = thread23;
-            threads[5] = thread31;
-            threads[6] = thread32;
-            threads[7] = thread33;
-            threads[8] = thread41;
-            threads[9] = thread42;
+            threads[5] = thread24;
+            threads[6] = thread31;
+            threads[7] = thread32;
+            threads[8] = thread33;
+            threads[9] = thread41;
+            threads[10] = thread42;
 
             long threadStartTime = System.currentTimeMillis();
 
@@ -90,6 +94,7 @@ public class Main {
             thread21.start();
             thread22.start();
             thread23.start();
+            thread24.start();
             thread31.start();
             thread32.start();
             thread33.start();
@@ -106,7 +111,7 @@ public class Main {
                         pw.println("Cantidad de imágenes completamente mejoradas  : " + contadorModified.getCount());
                         pw.println("Cantidad de imágenes ajustadas  : " + contador3.getCount());
                         pw.println("Cantidad de imágenes traspasadas al segundo contenedor  : " + contador4.getCount());
-                        for (int i = 0; i < 10; i++) {
+                        for (int i = 0; i < 11; i++) {
                             pw.println("Estado del " + threads[i].getName() + " : " + threads[i].getState());
                         }
                         pw.println("-----------------------------------------------------------------------------------------");

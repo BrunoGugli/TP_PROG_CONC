@@ -49,9 +49,9 @@ public class Image {
      *
      * @return True o false según esté o no modificada.
      */
-    public boolean getModified() {
+    public boolean getModified(int Hilos) {
         synchronized (controlImage){
-            if(this.hilosModificaron.size() == 3) {
+            if(this.hilosModificaron.size() == Hilos) {
                 return true;
             }
             else{

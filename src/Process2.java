@@ -7,6 +7,7 @@ public class Process2 implements Runnable {
     private ContImg cont;
     private Counter contador2;
     private Counter contadorModified;
+    private int Hilos;
 
     /**
      * Constructor con parámetros.
@@ -17,10 +18,11 @@ public class Process2 implements Runnable {
      *                         totalmente modificadas por los  3 hilos.
      *
      */
-    public Process2(ContImg cont, Counter contador2, Counter contadorModified) {
+    public Process2(ContImg cont, Counter contador2, Counter contadorModified,int Hilos) {
         this.cont = cont;
         this.contadorModified = contadorModified;
         this.contador2 = contador2;
+        this.Hilos = Hilos;
     }
 
     /**
@@ -31,7 +33,7 @@ public class Process2 implements Runnable {
      */
     @Override
     public void run() {
-        while (contador2.getCount() < 300) {
+        while (contador2.getCount() < (Hilos*100)) {
             Image i = cont.getImagen();
             if (i!=null) {
                         if(!i.getMod(Thread.currentThread().getName())) {
