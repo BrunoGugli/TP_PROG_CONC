@@ -14,7 +14,7 @@ public class Image {
 
     private ArrayList<String> hilosModificaron;
 
-    private Object controlImage;
+    private Object controlTomada, controlREC, controlArray;
 
     /**
      * Constructor de la instancia, inicializa los checkers necesarios
@@ -26,7 +26,9 @@ public class Image {
         this.nombre = nombre;
         this.tomada=false;
         REC = false;
-        controlImage=new Object();
+        controlArray=new Object();
+        controlTomada=new Object();
+        controlREC=new Object();
         hilosModificaron = new ArrayList<>();
     }
 
@@ -49,14 +51,12 @@ public class Image {
      *
      * @return True o false según esté o no modificada.
      */
-    public boolean getModified(int Hilos) {
-        synchronized (controlImage){
-            if(this.hilosModificaron.size() == Hilos) {
+    public boolean getModified(int hilos) {
+        synchronized (controlArray){
+            if(this.hilosModificaron.size() == hilos) {
                 return true;
             }
-            else{
-                return false;
-            }
+            return false;
         }
     }
 
@@ -67,7 +67,7 @@ public class Image {
      * @return True o false según esté o no recortada.
      */
     public boolean getREC() {
-        synchronized (controlImage){
+        synchronized (controlREC){
             return REC;
         }
     }
@@ -79,7 +79,7 @@ public class Image {
      * @return True o false según esté o no tomada.
      */
     public boolean isTomada() {
-        synchronized (controlImage){
+        synchronized (controlTomada){
             return tomada;
         }
     }
@@ -94,14 +94,14 @@ public class Image {
      * @param contadorModified El contador que lleva el registro
      *                         de imagenes modificadas por los 3 hilos.
      */
-    public void setMH1(boolean MH1, Counter contador, Counter contadorModified) {
+    public void setMH(boolean MH1, Counter contador, Counter contadorModified) {
         synchronized (this) {
-            if(MH1 == true && !this.hilosModificaron.contains(Thread.currentThread().getName())) {
+            if(MH1 == true && !this.getMod(Thread.currentThread().getName())){
                 this.hilosModificaron.add(Thread.currentThread().getName());
                 contador.increment();
             }
-            }
         }
+    }
 
 
 
@@ -113,7 +113,7 @@ public class Image {
      * @param contador El contador del proceso 3.
      */
     public void setREC(boolean REC, Counter contador){
-        synchronized (controlImage){
+        synchronized (controlREC){
             this.REC = REC;
             contador.increment();
         }
@@ -126,7 +126,7 @@ public class Image {
      * Setea el flag de tomada en true.
      */
     public void tomar() {
-        synchronized (controlImage){
+        synchronized (controlTomada){
             if(!this.isTomada()){
                 this.tomada=true;
             }
@@ -141,7 +141,7 @@ public class Image {
      * Setea el flag de tomada en false.
      */
     public void soltar() {
-        synchronized (controlImage){
+        synchronized (controlTomada){
             if(this.isTomada()) {
                 this.tomada = false;
             }

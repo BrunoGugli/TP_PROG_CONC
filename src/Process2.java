@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 /**
  * Modela el proceso 2, también implementa la interfaz Runneable.
  */
@@ -7,7 +5,7 @@ public class Process2 implements Runnable {
     private ContImg cont;
     private Counter contador2;
     private Counter contadorModified;
-    private int Hilos;
+    private int hilos;
 
     /**
      * Constructor con parámetros.
@@ -18,11 +16,11 @@ public class Process2 implements Runnable {
      *                         totalmente modificadas por los  3 hilos.
      *
      */
-    public Process2(ContImg cont, Counter contador2, Counter contadorModified,int Hilos) {
+    public Process2(ContImg cont, Counter contador2, Counter contadorModified,int hilos) {
         this.cont = cont;
         this.contadorModified = contadorModified;
         this.contador2 = contador2;
-        this.Hilos = Hilos;
+        this.hilos = hilos;
     }
 
     /**
@@ -33,17 +31,15 @@ public class Process2 implements Runnable {
      */
     @Override
     public void run() {
-        while (contador2.getCount() < (Hilos*100)) {
+        while (contador2.getCount() < (hilos*100)) {
             Image i = cont.getImagen();
             if (i!=null) {
-                        if(!i.getMod(Thread.currentThread().getName())) {
-                            try {
-                                Thread.sleep(100);
-                            } catch (InterruptedException e) {
-                                throw new RuntimeException(e);
-                            }
-                            i.setMH1(true, contador2, contadorModified);
-                        }
+                try {
+                    Thread.sleep(100);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+                i.setMH(true, contador2, contadorModified);
                 i.soltar();
             }
         }
