@@ -1,17 +1,20 @@
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.concurrent.TimeUnit;
+import java.util.logging.Logger;
+import java.util.logging.FileHandler;
+import java.util.logging.Level;
+import java.util.logging.SimpleFormatter;
 
 
 public class Main {
+    private static final Logger logger = Logger.getLogger("logtp1");
     public Main() {
     }
     public static void main(String[] args) throws InterruptedException {
+
             long startTime = System.currentTimeMillis();
-            
+
             /***
              * Lista donde se copiaran las imagenes mediante
              * el proceso 4 una vez pasen por los 3 procesos
@@ -28,100 +31,77 @@ public class Main {
             Counter contadorModified = new Counter();
             Counter contador3 = new Counter();
             Counter contador4 = new Counter();
-            int cantHilosProc2 = 4;
+            int cantHilosProc1 = 2, cantHilosProc2 = 3, cantHilosProc3 = 3, cantHilosProc4 = 2;
 
-        /***
-         * El contenedor de imagenes.
-         */
+            /***
+             * El contenedor de imagenes.
+             */
             ContImg cont = new ContImg(ListaCopia);
 
-            /**
-             * La instanciación de todos los procesos.
-             */
-            Process1 P11 = new Process1(cont, contador1,cantHilosProc2);
-            Process1 P12 = new Process1(cont, contador1,cantHilosProc2);
-
-            Process2 P21 = new Process2(cont, contador2, contadorModified,cantHilosProc2);
-            Process2 P22 = new Process2(cont, contador2, contadorModified,cantHilosProc2);
-            Process2 P23 = new Process2(cont, contador2, contadorModified,cantHilosProc2);
-            Process2 P24 = new Process2(cont, contador2, contadorModified,cantHilosProc2);
-
-            Process3 P31 = new Process3(cont, contador3,cantHilosProc2);
-            Process3 P32 = new Process3(cont, contador3,cantHilosProc2);
-            Process3 P33 = new Process3(cont, contador3,cantHilosProc2);
-
-            Process4 P41 = new Process4(cont, contador4);
-            Process4 P42 = new Process4(cont, contador4);
-
-
-            Thread thread11 = new Thread(P11, "Hilo 11");
-            Thread thread12 = new Thread(P12, "Hilo 12");
-
-            Thread thread21 = new Thread(P21, "Hilo 21");
-            Thread thread22 = new Thread(P22, "Hilo 22");
-            Thread thread23 = new Thread(P23, "Hilo 23");
-            Thread thread24 = new Thread(P24, "Hilo 24");
-
-            Thread thread31 = new Thread(P31, "Hilo 31");
-            Thread thread32 = new Thread(P32, "Hilo 32");
-            Thread thread33 = new Thread(P33, "Hilo 33");
-
-            Thread thread41 = new Thread(P41, "Hilo 41");
-            Thread thread42 = new Thread(P42, "Hilo 42");
-
+            long threadStartTime = System.currentTimeMillis();
             /**
              * Array de hilos para luego escribir su estado en el log.
              */
-            Thread threads[];
-            threads = new Thread[11];
+            ArrayList<Thread> threads = new ArrayList<>();
 
-            threads[0] = thread11;
-            threads[1] = thread12;
-            threads[2] = thread21;
-            threads[3] = thread22;
-            threads[4] = thread23;
-            threads[5] = thread24;
-            threads[6] = thread31;
-            threads[7] = thread32;
-            threads[8] = thread33;
-            threads[9] = thread41;
-            threads[10] = thread42;
+            for (int i = 1; i <= cantHilosProc1; i++) {
+                Thread thread1 = new Thread(new Process1(cont, contador1), "Hilo 1" + i);
+                thread1.start();
+                threads.add(thread1);
+            }
+            for (int i = 1; i <= cantHilosProc2; i++) {
+                Thread thread2 = new Thread(new Process2(cont, contador2, contadorModified, cantHilosProc2), "Hilo 2" + i);
+                thread2.start();
+                threads.add(thread2);
+            }
+            for (int i = 1; i <= cantHilosProc3; i++) {
+                Thread thread3 = new Thread(new Process3(cont, contador3, cantHilosProc2), "Hilo 3" + i);
+                thread3.start();
+                threads.add(thread3);
+            }
+            for (int i = 1; i <= cantHilosProc4; i++) {
+                Thread thread4 = new Thread(new Process4(cont, contador4), "Hilo 4" + i);
+                thread4.start();
+                threads.add(thread4);
+            }
 
-            long threadStartTime = System.currentTimeMillis();
-
-            thread11.start();
-            thread12.start();
-            thread21.start();
-            thread22.start();
-            thread23.start();
-            thread24.start();
-            thread31.start();
-            thread32.start();
-            thread33.start();
-            thread41.start();
-            thread42.start();
 
             /**
-             * FileWriter para escribir el log cada 500 milisegundos.
+             * Escribir el log cada 500 milisegundos.
              */
-            try (FileWriter file = new FileWriter("E:\\FACU\\ProgConc\\TP1_PC_LosPowerRanger_v11_Entregable_Final\\logtp1.txt"); PrintWriter pw = new PrintWriter(file);) {
-                while (!(thread41.getState().equals(Thread.State.TERMINATED)) || !(thread42.getState().equals(Thread.State.TERMINATED))) {
+            try {
+                FileHandler fileHandler = new FileHandler("Resources/logtp1.txt", false);
+                SimpleFormatter formatter = new SimpleFormatter() {
+                    private static final String format = "[%1$tF %1$tT] [%2$s] %3$s %n";
+                    @Override
+                    public synchronized String format(java.util.logging.LogRecord lr) {
+                        return String.format(format,
+                                new java.util.Date(lr.getMillis()),
+                                lr.getLevel().getLocalizedName(),
+                                lr.getMessage()
+                        );
+                    }
+                };
+                fileHandler.setFormatter(formatter);
+                logger.setUseParentHandlers(false);
+                logger.addHandler(fileHandler);
+                logger.setLevel(Level.INFO);
+
+                while (!allThreadsTerminated(threads)) {
                     synchronized (ListaCopia) {
-                        pw.println("Cantidad de imágenes insertadas en el primer contenedor  : " + contador1.getCount());
-                        pw.println("Cantidad de imágenes completamente mejoradas  : " + contadorModified.getCount());
-                        pw.println("Cantidad de imágenes ajustadas  : " + contador3.getCount());
-                        pw.println("Cantidad de imágenes traspasadas al segundo contenedor  : " + contador4.getCount());
-                        for (int i = 0; i < 11; i++) {
-                            pw.println("Estado del " + threads[i].getName() + " : " + threads[i].getState());
+                        logger.info("Cantidad de imágenes insertadas en el primer contenedor  : " + contador1.getCount());
+                        logger.info("Cantidad de imágenes completamente mejoradas  : " + contadorModified.getCount());
+                        logger.info("Cantidad de imágenes ajustadas  : " + contador3.getCount());
+                        logger.info("Cantidad de imágenes traspasadas al segundo contenedor  : " + contador4.getCount());
+                        for (int i = 0; i < threads.size(); i++) {
+                            logger.info("Estado del " + threads.get(i).getName() + " : " + threads.get(i).getState());
                         }
-                        pw.println("-----------------------------------------------------------------------------------------");
+                        logger.info("-----------------------------------------------------------------------------------------");
                     }
                     TimeUnit.MILLISECONDS.sleep(500);
                 }
             } catch (IOException e) {
-                throw new RuntimeException(e);
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
+                logger.log(Level.SEVERE, "Error al crear el archivo de registro.", e);
             }
 
             /**
@@ -133,7 +113,15 @@ public class Main {
 
             System.out.println("Tiempo total de ejecución de todo el programa: " + totalTime + " milisegundos.");
             System.out.println("Tiempo total de la ejecución de los hilos: " + totalThreadTime + " milisegundos");
+    }
 
+    public static boolean allThreadsTerminated(ArrayList<Thread> threads){
+        for(Thread th : threads){
+            if(!th.getState().equals(Thread.State.TERMINATED)){
+                return false;
+            }
+        }
+        return true;
     }
 
 }

@@ -6,15 +6,11 @@ import java.util.ArrayList;
  */
 public class Image {
     private String nombre;
-    private boolean MH1;
-    private boolean MH2;
-    private boolean MH3;
     private boolean REC;
     private boolean tomada;
 
-    private ArrayList<String> hilosModificaron;
+    public ArrayList<String> hilosModificaron;
 
-    private Object controlImage;
 
     /**
      * Constructor de la instancia, inicializa los checkers necesarios
@@ -26,7 +22,6 @@ public class Image {
         this.nombre = nombre;
         this.tomada=false;
         REC = false;
-        controlImage=new Object();
         hilosModificaron = new ArrayList<>();
     }
 
@@ -37,9 +32,7 @@ public class Image {
      * @return True o false según esté o no modificada.
      */
     public boolean getMod(String i) {
-        synchronized (this){ //Sincronizar con distintas llaves
-            return hilosModificaron.contains(i);
-        }
+        return hilosModificaron.contains(i);
     }
 
 
@@ -50,13 +43,11 @@ public class Image {
      * @return True o false según esté o no modificada.
      */
     public boolean getModified(int Hilos) {
-        synchronized (controlImage){
-            if(this.hilosModificaron.size() == Hilos) {
-                return true;
-            }
-            else{
-                return false;
-            }
+        if(this.hilosModificaron.size() == Hilos) {
+            return true;
+        }
+        else{
+            return false;
         }
     }
 
@@ -67,9 +58,7 @@ public class Image {
      * @return True o false según esté o no recortada.
      */
     public boolean getREC() {
-        synchronized (controlImage){
-            return REC;
-        }
+        return REC;
     }
 
     /**
@@ -79,9 +68,7 @@ public class Image {
      * @return True o false según esté o no tomada.
      */
     public boolean isTomada() {
-        synchronized (controlImage){
-            return tomada;
-        }
+        return tomada;
     }
 
 
@@ -94,14 +81,15 @@ public class Image {
      * @param contadorModified El contador que lleva el registro
      *                         de imagenes modificadas por los 3 hilos.
      */
-    public void setMH1(boolean MH1, Counter contador, Counter contadorModified) {
-        synchronized (this) {
-            if(MH1 == true && !this.hilosModificaron.contains(Thread.currentThread().getName())) {
-                this.hilosModificaron.add(Thread.currentThread().getName());
-                contador.increment();
-            }
+    public void setMH1(boolean MH1, Counter contador, Counter contadorModified,int hilos) {
+        if(MH1 == true && !this.hilosModificaron.contains(Thread.currentThread().getName())) {
+            this.hilosModificaron.add(Thread.currentThread().getName());
+            contador.increment();
+            if(this.getModified(hilos)){
+                contadorModified.increment();
             }
         }
+    }
 
 
 
@@ -113,10 +101,8 @@ public class Image {
      * @param contador El contador del proceso 3.
      */
     public void setREC(boolean REC, Counter contador){
-        synchronized (controlImage){
-            this.REC = REC;
-            contador.increment();
-        }
+        this.REC = REC;
+        contador.increment();
     }
 
     /**
@@ -126,10 +112,8 @@ public class Image {
      * Setea el flag de tomada en true.
      */
     public void tomar() {
-        synchronized (controlImage){
-            if(!this.isTomada()){
-                this.tomada=true;
-            }
+        if(!this.isTomada()){
+            this.tomada=true;
         }
     }
 
@@ -141,10 +125,8 @@ public class Image {
      * Setea el flag de tomada en false.
      */
     public void soltar() {
-        synchronized (controlImage){
-            if(this.isTomada()) {
-                this.tomada = false;
-            }
+        if(this.isTomada()) {
+            this.tomada = false;
         }
     }
 }

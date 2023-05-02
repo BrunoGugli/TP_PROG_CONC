@@ -36,14 +36,14 @@ public class Process2 implements Runnable {
         while (contador2.getCount() < (Hilos*100)) {
             Image i = cont.getImagen();
             if (i!=null) {
-                        if(!i.getMod(Thread.currentThread().getName())) {
-                            try {
-                                Thread.sleep(100);
-                            } catch (InterruptedException e) {
-                                throw new RuntimeException(e);
-                            }
-                            i.setMH1(true, contador2, contadorModified);
-                        }
+                if(!i.getMod(Thread.currentThread().getName())) {
+                    try {
+                        Thread.sleep(100);
+                    } catch (InterruptedException e) {
+                        throw new RuntimeException(e);
+                    }
+                    i.setMH1(true, contador2, contadorModified,Hilos);
+                }
                 i.soltar();
             }
         }

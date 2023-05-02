@@ -31,13 +31,15 @@ public class Process4 implements Runnable {
                 this.entro = false;
                 Image i = cont.getImagen();
                 if (i != null) {
-                    try{
-                        Thread.sleep(15);
-                    } catch (InterruptedException e) {
-                        throw new RuntimeException(e);
+                    if(i.getREC()) {
+                        try {
+                            Thread.sleep(15);
+                        } catch (InterruptedException e) {
+                            throw new RuntimeException(e);
+                        }
+                        cont.copiarImagen(i);
+                        cont.removerImagen(i, contador4);
                     }
-                    cont.copiarImagen(i);
-                    cont.removerImagen(i,contador4);  //Dividir en 2 cosas (remover y copiar)
                     i.soltar();
                 }
             }

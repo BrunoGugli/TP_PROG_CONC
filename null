@@ -2,19 +2,19 @@ Cantidad de imágenes insertadas en el primer contenedor  : 0
 Cantidad de imágenes completamente mejoradas  : 0
 Cantidad de imágenes ajustadas  : 0
 Cantidad de imágenes traspasadas al segundo contenedor  : 0
-Estado del Hilo 11 : RUNNABLE
+Estado del Hilo 11 : TIMED_WAITING
 Estado del Hilo 12 : TIMED_WAITING
-Estado del Hilo 21 : RUNNABLE
-Estado del Hilo 22 : RUNNABLE
-Estado del Hilo 23 : RUNNABLE
+Estado del Hilo 21 : BLOCKED
+Estado del Hilo 22 : BLOCKED
+Estado del Hilo 23 : BLOCKED
 Estado del Hilo 24 : BLOCKED
-Estado del Hilo 31 : RUNNABLE
-Estado del Hilo 32 : RUNNABLE
+Estado del Hilo 31 : BLOCKED
+Estado del Hilo 32 : BLOCKED
 Estado del Hilo 33 : RUNNABLE
-Estado del Hilo 41 : RUNNABLE
+Estado del Hilo 41 : BLOCKED
 Estado del Hilo 42 : RUNNABLE
 -----------------------------------------------------------------------------------------
-Cantidad de imágenes insertadas en el primer contenedor  : 88
+Cantidad de imágenes insertadas en el primer contenedor  : 63
 Cantidad de imágenes completamente mejoradas  : 0
 Cantidad de imágenes ajustadas  : 0
 Cantidad de imágenes traspasadas al segundo contenedor  : 0
@@ -25,10 +25,42 @@ Estado del Hilo 22 : TIMED_WAITING
 Estado del Hilo 23 : TIMED_WAITING
 Estado del Hilo 24 : TIMED_WAITING
 Estado del Hilo 31 : RUNNABLE
-Estado del Hilo 32 : BLOCKED
+Estado del Hilo 32 : RUNNABLE
+Estado del Hilo 33 : RUNNABLE
+Estado del Hilo 41 : BLOCKED
+Estado del Hilo 42 : RUNNABLE
+-----------------------------------------------------------------------------------------
+Cantidad de imágenes insertadas en el primer contenedor  : 100
+Cantidad de imágenes completamente mejoradas  : 0
+Cantidad de imágenes ajustadas  : 0
+Cantidad de imágenes traspasadas al segundo contenedor  : 0
+Estado del Hilo 11 : TERMINATED
+Estado del Hilo 12 : TERMINATED
+Estado del Hilo 21 : TIMED_WAITING
+Estado del Hilo 22 : TIMED_WAITING
+Estado del Hilo 23 : TIMED_WAITING
+Estado del Hilo 24 : TIMED_WAITING
+Estado del Hilo 31 : RUNNABLE
+Estado del Hilo 32 : RUNNABLE
 Estado del Hilo 33 : BLOCKED
-Estado del Hilo 41 : TIMED_WAITING
-Estado del Hilo 42 : TIMED_WAITING
+Estado del Hilo 41 : BLOCKED
+Estado del Hilo 42 : RUNNABLE
+-----------------------------------------------------------------------------------------
+Cantidad de imágenes insertadas en el primer contenedor  : 100
+Cantidad de imágenes completamente mejoradas  : 0
+Cantidad de imágenes ajustadas  : 0
+Cantidad de imágenes traspasadas al segundo contenedor  : 0
+Estado del Hilo 11 : TERMINATED
+Estado del Hilo 12 : TERMINATED
+Estado del Hilo 21 : TIMED_WAITING
+Estado del Hilo 22 : TIMED_WAITING
+Estado del Hilo 23 : TIMED_WAITING
+Estado del Hilo 24 : TIMED_WAITING
+Estado del Hilo 31 : BLOCKED
+Estado del Hilo 32 : RUNNABLE
+Estado del Hilo 33 : BLOCKED
+Estado del Hilo 41 : BLOCKED
+Estado del Hilo 42 : BLOCKED
 -----------------------------------------------------------------------------------------
 Cantidad de imágenes insertadas en el primer contenedor  : 100
 Cantidad de imágenes completamente mejoradas  : 0
@@ -43,8 +75,24 @@ Estado del Hilo 24 : TIMED_WAITING
 Estado del Hilo 31 : BLOCKED
 Estado del Hilo 32 : BLOCKED
 Estado del Hilo 33 : BLOCKED
-Estado del Hilo 41 : TIMED_WAITING
-Estado del Hilo 42 : TIMED_WAITING
+Estado del Hilo 41 : RUNNABLE
+Estado del Hilo 42 : BLOCKED
+-----------------------------------------------------------------------------------------
+Cantidad de imágenes insertadas en el primer contenedor  : 100
+Cantidad de imágenes completamente mejoradas  : 0
+Cantidad de imágenes ajustadas  : 0
+Cantidad de imágenes traspasadas al segundo contenedor  : 0
+Estado del Hilo 11 : TERMINATED
+Estado del Hilo 12 : TERMINATED
+Estado del Hilo 21 : TIMED_WAITING
+Estado del Hilo 22 : TIMED_WAITING
+Estado del Hilo 23 : TIMED_WAITING
+Estado del Hilo 24 : TIMED_WAITING
+Estado del Hilo 31 : RUNNABLE
+Estado del Hilo 32 : BLOCKED
+Estado del Hilo 33 : BLOCKED
+Estado del Hilo 41 : RUNNABLE
+Estado del Hilo 42 : BLOCKED
 -----------------------------------------------------------------------------------------
 Cantidad de imágenes insertadas en el primer contenedor  : 100
 Cantidad de imágenes completamente mejoradas  : 0
@@ -59,8 +107,24 @@ Estado del Hilo 24 : TIMED_WAITING
 Estado del Hilo 31 : BLOCKED
 Estado del Hilo 32 : BLOCKED
 Estado del Hilo 33 : RUNNABLE
-Estado del Hilo 41 : TIMED_WAITING
-Estado del Hilo 42 : TIMED_WAITING
+Estado del Hilo 41 : RUNNABLE
+Estado del Hilo 42 : BLOCKED
+-----------------------------------------------------------------------------------------
+Cantidad de imágenes insertadas en el primer contenedor  : 100
+Cantidad de imágenes completamente mejoradas  : 0
+Cantidad de imágenes ajustadas  : 0
+Cantidad de imágenes traspasadas al segundo contenedor  : 0
+Estado del Hilo 11 : TERMINATED
+Estado del Hilo 12 : TERMINATED
+Estado del Hilo 21 : TIMED_WAITING
+Estado del Hilo 22 : TIMED_WAITING
+Estado del Hilo 23 : TIMED_WAITING
+Estado del Hilo 24 : TIMED_WAITING
+Estado del Hilo 31 : BLOCKED
+Estado del Hilo 32 : BLOCKED
+Estado del Hilo 33 : BLOCKED
+Estado del Hilo 41 : RUNNABLE
+Estado del Hilo 42 : BLOCKED
 -----------------------------------------------------------------------------------------
 Cantidad de imágenes insertadas en el primer contenedor  : 100
 Cantidad de imágenes completamente mejoradas  : 0
@@ -75,29 +139,29 @@ Estado del Hilo 24 : TIMED_WAITING
 Estado del Hilo 31 : RUNNABLE
 Estado del Hilo 32 : BLOCKED
 Estado del Hilo 33 : RUNNABLE
-Estado del Hilo 41 : TIMED_WAITING
-Estado del Hilo 42 : TIMED_WAITING
+Estado del Hilo 41 : BLOCKED
+Estado del Hilo 42 : RUNNABLE
 -----------------------------------------------------------------------------------------
 Cantidad de imágenes insertadas en el primer contenedor  : 100
-Cantidad de imágenes completamente mejoradas  : 0
-Cantidad de imágenes ajustadas  : 0
-Cantidad de imágenes traspasadas al segundo contenedor  : 0
+Cantidad de imágenes completamente mejoradas  : 1
+Cantidad de imágenes ajustadas  : 1
+Cantidad de imágenes traspasadas al segundo contenedor  : 1
 Estado del Hilo 11 : TERMINATED
 Estado del Hilo 12 : TERMINATED
 Estado del Hilo 21 : TIMED_WAITING
 Estado del Hilo 22 : TIMED_WAITING
 Estado del Hilo 23 : TIMED_WAITING
 Estado del Hilo 24 : TIMED_WAITING
-Estado del Hilo 31 : BLOCKED
-Estado del Hilo 32 : RUNNABLE
+Estado del Hilo 31 : RUNNABLE
+Estado del Hilo 32 : BLOCKED
 Estado del Hilo 33 : BLOCKED
-Estado del Hilo 41 : TIMED_WAITING
-Estado del Hilo 42 : TIMED_WAITING
+Estado del Hilo 41 : RUNNABLE
+Estado del Hilo 42 : BLOCKED
 -----------------------------------------------------------------------------------------
 Cantidad de imágenes insertadas en el primer contenedor  : 100
-Cantidad de imágenes completamente mejoradas  : 0
+Cantidad de imágenes completamente mejoradas  : 2
 Cantidad de imágenes ajustadas  : 2
-Cantidad de imágenes traspasadas al segundo contenedor  : 0
+Cantidad de imágenes traspasadas al segundo contenedor  : 2
 Estado del Hilo 11 : TERMINATED
 Estado del Hilo 12 : TERMINATED
 Estado del Hilo 21 : TIMED_WAITING
@@ -107,76 +171,28 @@ Estado del Hilo 24 : TIMED_WAITING
 Estado del Hilo 31 : BLOCKED
 Estado del Hilo 32 : BLOCKED
 Estado del Hilo 33 : BLOCKED
-Estado del Hilo 41 : TIMED_WAITING
-Estado del Hilo 42 : TIMED_WAITING
+Estado del Hilo 41 : BLOCKED
+Estado del Hilo 42 : RUNNABLE
 -----------------------------------------------------------------------------------------
 Cantidad de imágenes insertadas en el primer contenedor  : 100
-Cantidad de imágenes completamente mejoradas  : 0
-Cantidad de imágenes ajustadas  : 2
-Cantidad de imágenes traspasadas al segundo contenedor  : 0
-Estado del Hilo 11 : TERMINATED
-Estado del Hilo 12 : TERMINATED
-Estado del Hilo 21 : TIMED_WAITING
-Estado del Hilo 22 : TIMED_WAITING
-Estado del Hilo 23 : TIMED_WAITING
-Estado del Hilo 24 : TIMED_WAITING
-Estado del Hilo 31 : BLOCKED
-Estado del Hilo 32 : RUNNABLE
-Estado del Hilo 33 : RUNNABLE
-Estado del Hilo 41 : TIMED_WAITING
-Estado del Hilo 42 : TIMED_WAITING
------------------------------------------------------------------------------------------
-Cantidad de imágenes insertadas en el primer contenedor  : 100
-Cantidad de imágenes completamente mejoradas  : 0
-Cantidad de imágenes ajustadas  : 2
-Cantidad de imágenes traspasadas al segundo contenedor  : 0
-Estado del Hilo 11 : TERMINATED
-Estado del Hilo 12 : TERMINATED
-Estado del Hilo 21 : TIMED_WAITING
-Estado del Hilo 22 : TIMED_WAITING
-Estado del Hilo 23 : TIMED_WAITING
-Estado del Hilo 24 : TIMED_WAITING
-Estado del Hilo 31 : BLOCKED
-Estado del Hilo 32 : RUNNABLE
-Estado del Hilo 33 : RUNNABLE
-Estado del Hilo 41 : TIMED_WAITING
-Estado del Hilo 42 : TIMED_WAITING
------------------------------------------------------------------------------------------
-Cantidad de imágenes insertadas en el primer contenedor  : 100
-Cantidad de imágenes completamente mejoradas  : 0
+Cantidad de imágenes completamente mejoradas  : 3
 Cantidad de imágenes ajustadas  : 3
-Cantidad de imágenes traspasadas al segundo contenedor  : 2
+Cantidad de imágenes traspasadas al segundo contenedor  : 3
 Estado del Hilo 11 : TERMINATED
 Estado del Hilo 12 : TERMINATED
 Estado del Hilo 21 : TIMED_WAITING
 Estado del Hilo 22 : TIMED_WAITING
 Estado del Hilo 23 : TIMED_WAITING
 Estado del Hilo 24 : TIMED_WAITING
-Estado del Hilo 31 : BLOCKED
-Estado del Hilo 32 : RUNNABLE
-Estado del Hilo 33 : RUNNABLE
-Estado del Hilo 41 : TIMED_WAITING
-Estado del Hilo 42 : TIMED_WAITING
+Estado del Hilo 31 : RUNNABLE
+Estado del Hilo 32 : BLOCKED
+Estado del Hilo 33 : BLOCKED
+Estado del Hilo 41 : BLOCKED
+Estado del Hilo 42 : RUNNABLE
 -----------------------------------------------------------------------------------------
 Cantidad de imágenes insertadas en el primer contenedor  : 100
-Cantidad de imágenes completamente mejoradas  : 0
-Cantidad de imágenes ajustadas  : 5
-Cantidad de imágenes traspasadas al segundo contenedor  : 2
-Estado del Hilo 11 : TERMINATED
-Estado del Hilo 12 : TERMINATED
-Estado del Hilo 21 : TIMED_WAITING
-Estado del Hilo 22 : TIMED_WAITING
-Estado del Hilo 23 : TIMED_WAITING
-Estado del Hilo 24 : TIMED_WAITING
-Estado del Hilo 31 : BLOCKED
-Estado del Hilo 32 : RUNNABLE
-Estado del Hilo 33 : RUNNABLE
-Estado del Hilo 41 : TIMED_WAITING
-Estado del Hilo 42 : TIMED_WAITING
------------------------------------------------------------------------------------------
-Cantidad de imágenes insertadas en el primer contenedor  : 100
-Cantidad de imágenes completamente mejoradas  : 0
-Cantidad de imágenes ajustadas  : 8
+Cantidad de imágenes completamente mejoradas  : 4
+Cantidad de imágenes ajustadas  : 4
 Cantidad de imágenes traspasadas al segundo contenedor  : 4
 Estado del Hilo 11 : TERMINATED
 Estado del Hilo 12 : TERMINATED
@@ -184,47 +200,31 @@ Estado del Hilo 21 : TIMED_WAITING
 Estado del Hilo 22 : TIMED_WAITING
 Estado del Hilo 23 : TIMED_WAITING
 Estado del Hilo 24 : TIMED_WAITING
+Estado del Hilo 31 : BLOCKED
+Estado del Hilo 32 : RUNNABLE
+Estado del Hilo 33 : BLOCKED
+Estado del Hilo 41 : RUNNABLE
+Estado del Hilo 42 : BLOCKED
+-----------------------------------------------------------------------------------------
+Cantidad de imágenes insertadas en el primer contenedor  : 100
+Cantidad de imágenes completamente mejoradas  : 8
+Cantidad de imágenes ajustadas  : 8
+Cantidad de imágenes traspasadas al segundo contenedor  : 8
+Estado del Hilo 11 : TERMINATED
+Estado del Hilo 12 : TERMINATED
+Estado del Hilo 21 : TIMED_WAITING
+Estado del Hilo 22 : TIMED_WAITING
+Estado del Hilo 23 : TIMED_WAITING
+Estado del Hilo 24 : TIMED_WAITING
 Estado del Hilo 31 : RUNNABLE
 Estado del Hilo 32 : RUNNABLE
 Estado del Hilo 33 : RUNNABLE
-Estado del Hilo 41 : TIMED_WAITING
-Estado del Hilo 42 : TIMED_WAITING
+Estado del Hilo 41 : BLOCKED
+Estado del Hilo 42 : RUNNABLE
 -----------------------------------------------------------------------------------------
 Cantidad de imágenes insertadas en el primer contenedor  : 100
-Cantidad de imágenes completamente mejoradas  : 0
-Cantidad de imágenes ajustadas  : 12
-Cantidad de imágenes traspasadas al segundo contenedor  : 9
-Estado del Hilo 11 : TERMINATED
-Estado del Hilo 12 : TERMINATED
-Estado del Hilo 21 : TIMED_WAITING
-Estado del Hilo 22 : TIMED_WAITING
-Estado del Hilo 23 : TIMED_WAITING
-Estado del Hilo 24 : TIMED_WAITING
-Estado del Hilo 31 : BLOCKED
-Estado del Hilo 32 : BLOCKED
-Estado del Hilo 33 : RUNNABLE
-Estado del Hilo 41 : TIMED_WAITING
-Estado del Hilo 42 : TIMED_WAITING
------------------------------------------------------------------------------------------
-Cantidad de imágenes insertadas en el primer contenedor  : 100
-Cantidad de imágenes completamente mejoradas  : 0
-Cantidad de imágenes ajustadas  : 16
-Cantidad de imágenes traspasadas al segundo contenedor  : 10
-Estado del Hilo 11 : TERMINATED
-Estado del Hilo 12 : TERMINATED
-Estado del Hilo 21 : TIMED_WAITING
-Estado del Hilo 22 : TIMED_WAITING
-Estado del Hilo 23 : TIMED_WAITING
-Estado del Hilo 24 : TIMED_WAITING
-Estado del Hilo 31 : RUNNABLE
-Estado del Hilo 32 : BLOCKED
-Estado del Hilo 33 : RUNNABLE
-Estado del Hilo 41 : TIMED_WAITING
-Estado del Hilo 42 : TIMED_WAITING
------------------------------------------------------------------------------------------
-Cantidad de imágenes insertadas en el primer contenedor  : 100
-Cantidad de imágenes completamente mejoradas  : 0
-Cantidad de imágenes ajustadas  : 22
+Cantidad de imágenes completamente mejoradas  : 15
+Cantidad de imágenes ajustadas  : 15
 Cantidad de imágenes traspasadas al segundo contenedor  : 15
 Estado del Hilo 11 : TERMINATED
 Estado del Hilo 12 : TERMINATED
@@ -233,15 +233,15 @@ Estado del Hilo 22 : TIMED_WAITING
 Estado del Hilo 23 : TIMED_WAITING
 Estado del Hilo 24 : TIMED_WAITING
 Estado del Hilo 31 : RUNNABLE
-Estado del Hilo 32 : BLOCKED
-Estado del Hilo 33 : RUNNABLE
-Estado del Hilo 41 : TIMED_WAITING
-Estado del Hilo 42 : TIMED_WAITING
+Estado del Hilo 32 : RUNNABLE
+Estado del Hilo 33 : BLOCKED
+Estado del Hilo 41 : BLOCKED
+Estado del Hilo 42 : RUNNABLE
 -----------------------------------------------------------------------------------------
 Cantidad de imágenes insertadas en el primer contenedor  : 100
-Cantidad de imágenes completamente mejoradas  : 0
-Cantidad de imágenes ajustadas  : 32
-Cantidad de imágenes traspasadas al segundo contenedor  : 20
+Cantidad de imágenes completamente mejoradas  : 22
+Cantidad de imágenes ajustadas  : 22
+Cantidad de imágenes traspasadas al segundo contenedor  : 22
 Estado del Hilo 11 : TERMINATED
 Estado del Hilo 12 : TERMINATED
 Estado del Hilo 21 : TIMED_WAITING
@@ -250,62 +250,14 @@ Estado del Hilo 23 : TIMED_WAITING
 Estado del Hilo 24 : TIMED_WAITING
 Estado del Hilo 31 : BLOCKED
 Estado del Hilo 32 : RUNNABLE
-Estado del Hilo 33 : RUNNABLE
-Estado del Hilo 41 : TIMED_WAITING
-Estado del Hilo 42 : TIMED_WAITING
+Estado del Hilo 33 : BLOCKED
+Estado del Hilo 41 : RUNNABLE
+Estado del Hilo 42 : RUNNABLE
 -----------------------------------------------------------------------------------------
 Cantidad de imágenes insertadas en el primer contenedor  : 100
-Cantidad de imágenes completamente mejoradas  : 0
-Cantidad de imágenes ajustadas  : 39
+Cantidad de imágenes completamente mejoradas  : 30
+Cantidad de imágenes ajustadas  : 30
 Cantidad de imágenes traspasadas al segundo contenedor  : 30
-Estado del Hilo 11 : TERMINATED
-Estado del Hilo 12 : TERMINATED
-Estado del Hilo 21 : TIMED_WAITING
-Estado del Hilo 22 : TIMED_WAITING
-Estado del Hilo 23 : TIMED_WAITING
-Estado del Hilo 24 : TIMED_WAITING
-Estado del Hilo 31 : RUNNABLE
-Estado del Hilo 32 : RUNNABLE
-Estado del Hilo 33 : RUNNABLE
-Estado del Hilo 41 : TIMED_WAITING
-Estado del Hilo 42 : TIMED_WAITING
------------------------------------------------------------------------------------------
-Cantidad de imágenes insertadas en el primer contenedor  : 100
-Cantidad de imágenes completamente mejoradas  : 0
-Cantidad de imágenes ajustadas  : 50
-Cantidad de imágenes traspasadas al segundo contenedor  : 42
-Estado del Hilo 11 : TERMINATED
-Estado del Hilo 12 : TERMINATED
-Estado del Hilo 21 : TIMED_WAITING
-Estado del Hilo 22 : TIMED_WAITING
-Estado del Hilo 23 : TIMED_WAITING
-Estado del Hilo 24 : TIMED_WAITING
-Estado del Hilo 31 : RUNNABLE
-Estado del Hilo 32 : BLOCKED
-Estado del Hilo 33 : RUNNABLE
-Estado del Hilo 41 : TIMED_WAITING
-Estado del Hilo 42 : TIMED_WAITING
------------------------------------------------------------------------------------------
-Cantidad de imágenes insertadas en el primer contenedor  : 100
-Cantidad de imágenes completamente mejoradas  : 0
-Cantidad de imágenes ajustadas  : 64
-Cantidad de imágenes traspasadas al segundo contenedor  : 53
-Estado del Hilo 11 : TERMINATED
-Estado del Hilo 12 : TERMINATED
-Estado del Hilo 21 : TIMED_WAITING
-Estado del Hilo 22 : TIMED_WAITING
-Estado del Hilo 23 : TIMED_WAITING
-Estado del Hilo 24 : TIMED_WAITING
-Estado del Hilo 31 : RUNNABLE
-Estado del Hilo 32 : BLOCKED
-Estado del Hilo 33 : TIMED_WAITING
-Estado del Hilo 41 : TIMED_WAITING
-Estado del Hilo 42 : TIMED_WAITING
------------------------------------------------------------------------------------------
-Cantidad de imágenes insertadas en el primer contenedor  : 100
-Cantidad de imágenes completamente mejoradas  : 0
-Cantidad de imágenes ajustadas  : 80
-Cantidad de imágenes traspasadas al segundo contenedor  : 69
 Estado del Hilo 11 : TERMINATED
 Estado del Hilo 12 : TERMINATED
 Estado del Hilo 21 : TIMED_WAITING
@@ -315,22 +267,86 @@ Estado del Hilo 24 : TIMED_WAITING
 Estado del Hilo 31 : RUNNABLE
 Estado del Hilo 32 : BLOCKED
 Estado del Hilo 33 : BLOCKED
-Estado del Hilo 41 : TIMED_WAITING
-Estado del Hilo 42 : TIMED_WAITING
+Estado del Hilo 41 : BLOCKED
+Estado del Hilo 42 : RUNNABLE
 -----------------------------------------------------------------------------------------
 Cantidad de imágenes insertadas en el primer contenedor  : 100
-Cantidad de imágenes completamente mejoradas  : 0
-Cantidad de imágenes ajustadas  : 95
-Cantidad de imágenes traspasadas al segundo contenedor  : 92
+Cantidad de imágenes completamente mejoradas  : 39
+Cantidad de imágenes ajustadas  : 39
+Cantidad de imágenes traspasadas al segundo contenedor  : 38
 Estado del Hilo 11 : TERMINATED
 Estado del Hilo 12 : TERMINATED
 Estado del Hilo 21 : TIMED_WAITING
 Estado del Hilo 22 : TIMED_WAITING
 Estado del Hilo 23 : TIMED_WAITING
 Estado del Hilo 24 : TIMED_WAITING
-Estado del Hilo 31 : BLOCKED
+Estado del Hilo 31 : RUNNABLE
+Estado del Hilo 32 : BLOCKED
+Estado del Hilo 33 : BLOCKED
+Estado del Hilo 41 : BLOCKED
+Estado del Hilo 42 : TIMED_WAITING
+-----------------------------------------------------------------------------------------
+Cantidad de imágenes insertadas en el primer contenedor  : 100
+Cantidad de imágenes completamente mejoradas  : 50
+Cantidad de imágenes ajustadas  : 50
+Cantidad de imágenes traspasadas al segundo contenedor  : 48
+Estado del Hilo 11 : TERMINATED
+Estado del Hilo 12 : TERMINATED
+Estado del Hilo 21 : TIMED_WAITING
+Estado del Hilo 22 : TIMED_WAITING
+Estado del Hilo 23 : TIMED_WAITING
+Estado del Hilo 24 : TIMED_WAITING
+Estado del Hilo 31 : RUNNABLE
 Estado del Hilo 32 : RUNNABLE
 Estado del Hilo 33 : RUNNABLE
 Estado del Hilo 41 : TIMED_WAITING
 Estado del Hilo 42 : TIMED_WAITING
+-----------------------------------------------------------------------------------------
+Cantidad de imágenes insertadas en el primer contenedor  : 100
+Cantidad de imágenes completamente mejoradas  : 65
+Cantidad de imágenes ajustadas  : 64
+Cantidad de imágenes traspasadas al segundo contenedor  : 62
+Estado del Hilo 11 : TERMINATED
+Estado del Hilo 12 : TERMINATED
+Estado del Hilo 21 : TIMED_WAITING
+Estado del Hilo 22 : TIMED_WAITING
+Estado del Hilo 23 : TIMED_WAITING
+Estado del Hilo 24 : TIMED_WAITING
+Estado del Hilo 31 : TIMED_WAITING
+Estado del Hilo 32 : RUNNABLE
+Estado del Hilo 33 : RUNNABLE
+Estado del Hilo 41 : TIMED_WAITING
+Estado del Hilo 42 : TIMED_WAITING
+-----------------------------------------------------------------------------------------
+Cantidad de imágenes insertadas en el primer contenedor  : 100
+Cantidad de imágenes completamente mejoradas  : 82
+Cantidad de imágenes ajustadas  : 78
+Cantidad de imágenes traspasadas al segundo contenedor  : 78
+Estado del Hilo 11 : TERMINATED
+Estado del Hilo 12 : TERMINATED
+Estado del Hilo 21 : TIMED_WAITING
+Estado del Hilo 22 : TIMED_WAITING
+Estado del Hilo 23 : TIMED_WAITING
+Estado del Hilo 24 : TIMED_WAITING
+Estado del Hilo 31 : TIMED_WAITING
+Estado del Hilo 32 : TIMED_WAITING
+Estado del Hilo 33 : TIMED_WAITING
+Estado del Hilo 41 : RUNNABLE
+Estado del Hilo 42 : BLOCKED
+-----------------------------------------------------------------------------------------
+Cantidad de imágenes insertadas en el primer contenedor  : 100
+Cantidad de imágenes completamente mejoradas  : 99
+Cantidad de imágenes ajustadas  : 97
+Cantidad de imágenes traspasadas al segundo contenedor  : 97
+Estado del Hilo 11 : TERMINATED
+Estado del Hilo 12 : TERMINATED
+Estado del Hilo 21 : TIMED_WAITING
+Estado del Hilo 22 : BLOCKED
+Estado del Hilo 23 : RUNNABLE
+Estado del Hilo 24 : BLOCKED
+Estado del Hilo 31 : TIMED_WAITING
+Estado del Hilo 32 : RUNNABLE
+Estado del Hilo 33 : TIMED_WAITING
+Estado del Hilo 41 : BLOCKED
+Estado del Hilo 42 : BLOCKED
 -----------------------------------------------------------------------------------------

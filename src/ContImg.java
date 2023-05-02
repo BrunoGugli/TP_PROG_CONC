@@ -1,14 +1,13 @@
 
 import java.util.Random;
 import java.util.ArrayList;
-import java.util.concurrent.TimeUnit;
 
 /**
  * Modela el contenedor principal de imagenes.
  */
 public class ContImg {
     private ArrayList<Image> ListaImg;
-    private ArrayList<Image> ListaCopia; //Crear copia a parte con otro contenedor
+    private ArrayList<Image> ListaCopia;
 
     /**
      * Constructor con parámetros.
@@ -98,15 +97,15 @@ public class ContImg {
      */
     public void removerImagen(Image i,Counter contador4){
         synchronized (ListaImg) {
-            if (ListaImg.contains(i) && i.getREC()) {
-                    this.ListaImg.remove(i);
-                    contador4.increment();
+            if (ListaImg.contains(i)) {
+                this.ListaImg.remove(i);
+                contador4.increment();
             }
         }
     }
     public void copiarImagen(Image i){
         synchronized (ListaImg) {
-            if (ListaImg.contains(i) && i.getREC()) {
+            if (ListaImg.contains(i)) {
                 this.ListaCopia.add(i);
             }
         }

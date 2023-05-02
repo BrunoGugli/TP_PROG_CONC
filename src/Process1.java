@@ -5,7 +5,6 @@ public class Process1 implements Runnable{
     private Image img;
     private ContImg cont;
     private Counter contador1;
-    private int Hilos;
 
 
 
@@ -17,7 +16,7 @@ public class Process1 implements Runnable{
      * @param cont El contenedor general de imagenes.
      * @param contador1 El contador propio del proceso.
      */
-    public Process1(ContImg cont, Counter contador1,int Hilos){
+    public Process1(ContImg cont, Counter contador1){
         this.cont = cont;
         this.contador1=contador1;
     }
