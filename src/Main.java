@@ -104,7 +104,7 @@ public class Main {
             /**
              * FileWriter para escribir el log cada 500 milisegundos.
              */
-            try (FileWriter file = new FileWriter("C:\\Users\\Bruno Guglielmotti\\Desktop\\logtp1.txt"); PrintWriter pw = new PrintWriter(file);) {
+            try (FileWriter file = new FileWriter("E:\\FACU\\ProgConc\\TP1_PC_LosPowerRanger_v11_Entregable_Final\\logtp1.txt"); PrintWriter pw = new PrintWriter(file);) {
                 while (!(thread41.getState().equals(Thread.State.TERMINATED)) || !(thread42.getState().equals(Thread.State.TERMINATED))) {
                     synchronized (ListaCopia) {
                         pw.println("Cantidad de imágenes insertadas en el primer contenedor  : " + contador1.getCount());

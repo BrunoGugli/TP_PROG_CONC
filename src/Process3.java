@@ -4,7 +4,7 @@
 public class Process3 implements Runnable {
     private ContImg cont;
     private Counter contador3;
-    private int hilos;
+    private int Hilos;
 
     /**
      * Constructor del proceso con parámetros.
@@ -12,10 +12,10 @@ public class Process3 implements Runnable {
      * @param cont El contenedor general de imágenes.
      * @param contador3 El contador propio del proceso.
      */
-    public Process3(ContImg cont, Counter contador3,int hilos) {
+    public Process3(ContImg cont, Counter contador3,int Hilos) {
         this.cont = cont;
         this.contador3 = contador3;
-        this.hilos = hilos;
+        this.Hilos = Hilos;
     }
 
     /**
@@ -28,7 +28,7 @@ public class Process3 implements Runnable {
         while (contador3.getCount() < 100) {
             Image i = cont.getImagen();
             if (i!=null){
-                if(i.getModified(hilos) && !i.getREC()) {
+                if(i.getModified(Hilos) && !i.getREC()) {
                     try {
                         Thread.sleep(15);
                     } catch (InterruptedException e) {
