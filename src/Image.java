@@ -1,8 +1,7 @@
 import java.util.ArrayList;
 
 /**
- * Modela las imagenes que deben ser procesadas con sus
- * setters y getters correspondientes.
+ * Modela las imagenes que deben ser procesadas.
  */
 public class Image {
     private String nombre;
@@ -27,28 +26,30 @@ public class Image {
 
     /**
      * Este metodo devuelve el flag que indica si la imagen
-     * fue modificada por el hilo 1 en el proceso 2.
+     * fue modificada por un determindo hilo en el proceso 2.
+     *
+     * @param i El nombre del hilo a comprobar si modificó.
      *
      * @return True o false según esté o no modificada.
      */
-    public boolean getMod(String i) {
+    public boolean getModPorHilo(String i) {
         return hilosModificaron.contains(i);
     }
 
 
     /**
      * Este metodo devuelve el flag que indica si la imagen
-     * fue modificada por los 3 hilos del proceso 2.
+     * fue modificada por todos los hilos del proceso 2.
+     *
+     * @param hilos La cantidad de hilos del proceso 2.
      *
      * @return True o false según esté o no modificada.
      */
-    public boolean getModified(int Hilos) {
-        if(this.hilosModificaron.size() == Hilos) {
+    public boolean getModified(int hilos) {
+        if(this.hilosModificaron.size() == hilos) {
             return true;
         }
-        else{
-            return false;
-        }
+        return false;
     }
 
     /**
@@ -73,21 +74,19 @@ public class Image {
 
 
     /**
-     * Este método setea el flag en true de que la
-     * imagen fue modificada por el hilo 1 en el proceso 2.
+     * Este método agrega el hilo que está modificando a la imagen, al
+     * array de hilos que modificaron a la imagen.
      *
-     * @param MH1 El flag en true de que fue modificada.
      * @param contador El contador2 del proceso 2.
      * @param contadorModified El contador que lleva el registro
-     *                         de imagenes modificadas por los 3 hilos.
+     *                         de imagenes modificadas por todos los
+     *                         hilos del proceso 2.
      */
-    public void setMH1(boolean MH1, Counter contador, Counter contadorModified,int hilos) {
-        if(MH1 == true && !this.hilosModificaron.contains(Thread.currentThread().getName())) {
-            this.hilosModificaron.add(Thread.currentThread().getName());
-            contador.increment();
-            if(this.getModified(hilos)){
-                contadorModified.increment();
-            }
+    public void setMH(Counter contador, Counter contadorModified, int hilos) {
+        this.hilosModificaron.add(Thread.currentThread().getName());
+        contador.increment();
+        if(this.getModified(hilos)){
+            contadorModified.increment();
         }
     }
 
@@ -96,6 +95,8 @@ public class Image {
     /**
      * Este método setea el flag en true de que la
      * imagen fue recortada en el proceso 3.
+     *
+     * Incrementa en 1 el contador 3.
      *
      * @param REC El flag en true de que fue recortada.
      * @param contador El contador del proceso 3.

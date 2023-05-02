@@ -9,11 +9,9 @@ public class ContImg {
     private ArrayList<Image> ListaImg;
 
     /**
-     * Constructor con parámetros.
+     * Constructor sin parámetros.
      * Inicializa un ArrayList para implementar el
      * contenedor y almacenar las imagenes.
-     *
-     *
      */
     public ContImg(){
         ListaImg=new ArrayList<>();
@@ -27,12 +25,12 @@ public class ContImg {
      * contador, porque en el proceso 1, los dos hilos leen que el
      * contador es menor a 100 (por ej. cuando es 99) por lo que se cumple la
      * condición, ambos entran a este metodo y ambos incrementarían el contador.
-     * Entonces haciendo la comprobación nuevamente se evita ese problema.
+     * Entonces haciendo esta comprobación nuevamente se evita ese problema.
      *
      * Aumenta el contador 1.
      *
-     * @param img la imagen a agregar.
-     * @param contador el contador del proceso 1.
+     * @param img La imagen a agregar.
+     * @param contador El contador del proceso 1.
      *
      */
     public void addImagen(Image img, Counter contador) {
@@ -44,7 +42,14 @@ public class ContImg {
         }
     }
 
-
+    /**
+     * Este metodo tambien agrega una imagen al contenedor de imagenes
+     * con la diferencia de que este no incrementa el contador, debido
+     * a que este metodo está destinado a agregar imagenes al contenedor
+     * de copias.
+     *
+     * @param img La imagen a agregar.
+     */
     public void addImagenCopia(Image img) {
         synchronized (ListaImg) {
             ListaImg.add(img);
@@ -92,13 +97,12 @@ public class ContImg {
     }
 
     /**
-     * Este metodo remueve una imagen del contenedor según
-     * el índice y la agrega al array final que contiene
-     * las imágenes totalmente procesadas.
+     * Este metodo remueve una imagen del contenedor si
+     * esta está contenida en el mismo.
      *
      * Aumenta el contador 4.
      *
-     * @param i El índice de la imagen a remover.
+     * @param i La imagen a remover.
      * @param contador4 El contador del proceso 4.
      */
     public void removerImagen(Image i,Counter contador4){

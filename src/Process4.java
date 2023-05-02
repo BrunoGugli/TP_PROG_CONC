@@ -11,6 +11,7 @@ public class Process4 implements Runnable {
      * Constructor del proceso con parámetros.
      *
      * @param cont El contenedor general de imágenes.
+     * @param listaCopia El contenedor de copias.
      * @param contador4 El contador para llevar el número de
      *                  imágenes pasadas al nuevo contenedor.
      */
@@ -24,7 +25,7 @@ public class Process4 implements Runnable {
     /**
      * Este metodo comprueba a cada imagen si se le aplicó
      * el recorte, si esto se cumple la remueve del contenedor
-     * principal y la mueve al nuevo contenedor final.
+     * principal y la mueve al nuevo contenedor de copias.
      */
     @Override
     public void run() {
