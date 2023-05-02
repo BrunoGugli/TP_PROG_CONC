@@ -7,7 +7,6 @@ import java.util.ArrayList;
  */
 public class ContImg {
     private ArrayList<Image> ListaImg;
-    private ArrayList<Image> ListaCopia;
 
     /**
      * Constructor con parámetros.
@@ -16,9 +15,8 @@ public class ContImg {
      *
      *
      */
-    public ContImg(ArrayList<Image> ListaCopia){
+    public ContImg(){
         ListaImg=new ArrayList<>();
-        this.ListaCopia = ListaCopia;
     }
 
 
@@ -45,6 +43,14 @@ public class ContImg {
             }
         }
     }
+
+
+    public void addImagenCopia(Image img) {
+        synchronized (ListaImg) {
+            ListaImg.add(img);
+        }
+    }
+
 
 
     /**
@@ -103,13 +109,4 @@ public class ContImg {
             }
         }
     }
-    public void copiarImagen(Image i){
-        synchronized (ListaImg) {
-            if (ListaImg.contains(i)) {
-                this.ListaCopia.add(i);
-            }
-        }
-    }
-
-
 }

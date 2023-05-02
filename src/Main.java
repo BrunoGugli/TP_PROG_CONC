@@ -20,7 +20,8 @@ public class Main {
              * el proceso 4 una vez pasen por los 3 procesos
              * correspondientes.
              */
-            ArrayList<Image> ListaCopia = new ArrayList<>();
+            ContImg listaCopia = new ContImg();
+
 
             /***
              * Los 4 contadores para cada proceso y
@@ -36,7 +37,9 @@ public class Main {
             /***
              * El contenedor de imagenes.
              */
-            ContImg cont = new ContImg(ListaCopia);
+            ContImg cont = new ContImg();
+
+
 
             long threadStartTime = System.currentTimeMillis();
             /**
@@ -60,7 +63,7 @@ public class Main {
                 threads.add(thread3);
             }
             for (int i = 1; i <= cantHilosProc4; i++) {
-                Thread thread4 = new Thread(new Process4(cont, contador4), "Hilo 4" + i);
+                Thread thread4 = new Thread(new Process4(cont, listaCopia,contador4), "Hilo 4" + i);
                 thread4.start();
                 threads.add(thread4);
             }
@@ -88,7 +91,7 @@ public class Main {
                 logger.setLevel(Level.INFO);
 
                 while (!allThreadsTerminated(threads)) {
-                    synchronized (ListaCopia) {
+                    synchronized (listaCopia) {
                         logger.info("Cantidad de imágenes insertadas en el primer contenedor  : " + contador1.getCount());
                         logger.info("Cantidad de imágenes completamente mejoradas  : " + contadorModified.getCount());
                         logger.info("Cantidad de imágenes ajustadas  : " + contador3.getCount());

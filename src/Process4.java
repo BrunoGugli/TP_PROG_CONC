@@ -3,6 +3,7 @@
  */
 public class Process4 implements Runnable {
     private ContImg cont;
+    private ContImg listaCopia;
     private boolean entro;
     private Counter contador4;
 
@@ -13,8 +14,9 @@ public class Process4 implements Runnable {
      * @param contador4 El contador para llevar el número de
      *                  imágenes pasadas al nuevo contenedor.
      */
-    public Process4(ContImg cont, Counter contador4) {
+    public Process4(ContImg cont, ContImg listaCopia, Counter contador4) {
         this.cont = cont;
+        this.listaCopia = listaCopia;
         this.entro=true;
         this.contador4 = contador4;
     }
@@ -37,7 +39,7 @@ public class Process4 implements Runnable {
                         } catch (InterruptedException e) {
                             throw new RuntimeException(e);
                         }
-                        cont.copiarImagen(i);
+                        listaCopia.addImagenCopia(i);
                         cont.removerImagen(i, contador4);
                     }
                     i.soltar();
