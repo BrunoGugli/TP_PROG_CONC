@@ -8,7 +8,7 @@ public class Image {
     private boolean REC;
     private boolean tomada;
 
-    public ArrayList<String> hilosModificaron;
+    private ArrayList<String> hilosModificaron;
 
 
     /**
