@@ -50,8 +50,8 @@ public class ContImg {
      *
      * @param img La imagen a agregar.
      */
-    public void addImagenCopia(Image img) {
-        synchronized (ListaImg) {
+    public void addImagenCopia(Image img){
+        synchronized (ListaImg){
             ListaImg.add(img);
         }
     }
@@ -81,7 +81,6 @@ public class ContImg {
         }catch (IndexOutOfBoundsException e) {
             return null;
         }
-
     }
 
 
@@ -106,7 +105,7 @@ public class ContImg {
      * @param contador4 El contador del proceso 4.
      */
     public void removerImagen(Image i,Counter contador4){
-        synchronized (ListaImg) {
+        synchronized (ListaImg){
             if (ListaImg.contains(i)) {
                 this.ListaImg.remove(i);
                 contador4.increment();

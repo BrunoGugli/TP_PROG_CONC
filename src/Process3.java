@@ -11,6 +11,7 @@ public class Process3 implements Runnable {
      *
      * @param cont El contenedor general de imágenes.
      * @param contador3 El contador propio del proceso.
+     * @param hilos los hilos del proceso 2
      */
     public Process3(ContImg cont, Counter contador3,int hilos) {
         this.cont = cont;

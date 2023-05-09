@@ -67,29 +67,31 @@ public class Main {
         ArrayList<Thread> threads = new ArrayList<>();
 
         /**
-         * Inicialización de todos los hilos.
+         * Creacion de todos los hilos.
          */
         for (int i = 1; i <= cantHilosProc1; i++) {
             Thread thread1 = new Thread(new Process1(cont, contador1), "Hilo 1" + i);
-            thread1.start();
             threads.add(thread1);
         }
         for (int i = 1; i <= cantHilosProc2; i++) {
             Thread thread2 = new Thread(new Process2(cont, contador2, contadorModified, cantHilosProc2), "Hilo 2" + i);
-            thread2.start();
             threads.add(thread2);
         }
         for (int i = 1; i <= cantHilosProc3; i++) {
             Thread thread3 = new Thread(new Process3(cont, contador3, cantHilosProc2), "Hilo 3" + i);
-            thread3.start();
             threads.add(thread3);
         }
         for (int i = 1; i <= cantHilosProc4; i++) {
             Thread thread4 = new Thread(new Process4(cont, listaCopia, contador4), "Hilo 4" + i);
-            thread4.start();
             threads.add(thread4);
         }
 
+        /**
+         * Inicializacion de los hilos
+         */
+        for(Thread th : threads){
+            th.start();
+        }
 
         /**
          * Logger.

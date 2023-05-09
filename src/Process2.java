@@ -32,7 +32,7 @@ public class Process2 implements Runnable {
     public void run() {
         while (contador2.getCount() < (hilos*100)) {
             Image i = cont.getImagen();
-            if (i!=null) {
+            if (i!=null){
                 if(!i.getModPorHilo(Thread.currentThread().getName())) {
                     try {
                         Thread.sleep(100);
