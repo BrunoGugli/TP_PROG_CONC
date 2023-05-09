@@ -1,330 +1,330 @@
-[2023-05-09 12:19:03] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 10 
-[2023-05-09 12:19:03] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 0 
-[2023-05-09 12:19:03] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 0 
-[2023-05-09 12:19:03] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 0 
-[2023-05-09 12:19:03] [INFORMACIÓN] Estado del Hilo 11 : TIMED_WAITING 
-[2023-05-09 12:19:03] [INFORMACIÓN] Estado del Hilo 12 : TIMED_WAITING 
-[2023-05-09 12:19:03] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
-[2023-05-09 12:19:03] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
-[2023-05-09 12:19:03] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
-[2023-05-09 12:19:03] [INFORMACIÓN] Estado del Hilo 31 : BLOCKED 
-[2023-05-09 12:19:03] [INFORMACIÓN] Estado del Hilo 32 : BLOCKED 
-[2023-05-09 12:19:03] [INFORMACIÓN] Estado del Hilo 33 : RUNNABLE 
-[2023-05-09 12:19:03] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
-[2023-05-09 12:19:03] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
-[2023-05-09 12:19:03] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
-[2023-05-09 12:19:03] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 82 
-[2023-05-09 12:19:03] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 0 
-[2023-05-09 12:19:03] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 0 
-[2023-05-09 12:19:03] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 0 
-[2023-05-09 12:19:03] [INFORMACIÓN] Estado del Hilo 11 : TIMED_WAITING 
-[2023-05-09 12:19:03] [INFORMACIÓN] Estado del Hilo 12 : TIMED_WAITING 
-[2023-05-09 12:19:03] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
-[2023-05-09 12:19:03] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
-[2023-05-09 12:19:03] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
-[2023-05-09 12:19:03] [INFORMACIÓN] Estado del Hilo 31 : BLOCKED 
-[2023-05-09 12:19:03] [INFORMACIÓN] Estado del Hilo 32 : BLOCKED 
-[2023-05-09 12:19:03] [INFORMACIÓN] Estado del Hilo 33 : RUNNABLE 
-[2023-05-09 12:19:03] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
-[2023-05-09 12:19:03] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
-[2023-05-09 12:19:03] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
-[2023-05-09 12:19:04] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
-[2023-05-09 12:19:04] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 0 
-[2023-05-09 12:19:04] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 0 
-[2023-05-09 12:19:04] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 0 
-[2023-05-09 12:19:04] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
-[2023-05-09 12:19:04] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
-[2023-05-09 12:19:04] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
-[2023-05-09 12:19:04] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
-[2023-05-09 12:19:04] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
-[2023-05-09 12:19:04] [INFORMACIÓN] Estado del Hilo 31 : RUNNABLE 
-[2023-05-09 12:19:04] [INFORMACIÓN] Estado del Hilo 32 : RUNNABLE 
-[2023-05-09 12:19:04] [INFORMACIÓN] Estado del Hilo 33 : RUNNABLE 
-[2023-05-09 12:19:04] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
-[2023-05-09 12:19:04] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
-[2023-05-09 12:19:04] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
-[2023-05-09 12:19:04] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
-[2023-05-09 12:19:04] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 0 
-[2023-05-09 12:19:04] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 0 
-[2023-05-09 12:19:04] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 0 
-[2023-05-09 12:19:04] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
-[2023-05-09 12:19:04] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
-[2023-05-09 12:19:04] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
-[2023-05-09 12:19:04] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
-[2023-05-09 12:19:04] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
-[2023-05-09 12:19:04] [INFORMACIÓN] Estado del Hilo 31 : RUNNABLE 
-[2023-05-09 12:19:04] [INFORMACIÓN] Estado del Hilo 32 : RUNNABLE 
-[2023-05-09 12:19:04] [INFORMACIÓN] Estado del Hilo 33 : RUNNABLE 
-[2023-05-09 12:19:04] [INFORMACIÓN] Estado del Hilo 41 : RUNNABLE 
-[2023-05-09 12:19:04] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
-[2023-05-09 12:19:04] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
-[2023-05-09 12:19:05] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
-[2023-05-09 12:19:05] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 0 
-[2023-05-09 12:19:05] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 0 
-[2023-05-09 12:19:05] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 0 
-[2023-05-09 12:19:05] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
-[2023-05-09 12:19:05] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
-[2023-05-09 12:19:05] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
-[2023-05-09 12:19:05] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
-[2023-05-09 12:19:05] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
-[2023-05-09 12:19:05] [INFORMACIÓN] Estado del Hilo 31 : BLOCKED 
-[2023-05-09 12:19:05] [INFORMACIÓN] Estado del Hilo 32 : BLOCKED 
-[2023-05-09 12:19:05] [INFORMACIÓN] Estado del Hilo 33 : RUNNABLE 
-[2023-05-09 12:19:05] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
-[2023-05-09 12:19:05] [INFORMACIÓN] Estado del Hilo 42 : RUNNABLE 
-[2023-05-09 12:19:05] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
-[2023-05-09 12:19:06] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
-[2023-05-09 12:19:06] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 2 
-[2023-05-09 12:19:06] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 2 
-[2023-05-09 12:19:06] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 2 
-[2023-05-09 12:19:06] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
-[2023-05-09 12:19:06] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
-[2023-05-09 12:19:06] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
-[2023-05-09 12:19:06] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
-[2023-05-09 12:19:06] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
-[2023-05-09 12:19:06] [INFORMACIÓN] Estado del Hilo 31 : BLOCKED 
-[2023-05-09 12:19:06] [INFORMACIÓN] Estado del Hilo 32 : RUNNABLE 
-[2023-05-09 12:19:06] [INFORMACIÓN] Estado del Hilo 33 : BLOCKED 
-[2023-05-09 12:19:06] [INFORMACIÓN] Estado del Hilo 41 : RUNNABLE 
-[2023-05-09 12:19:06] [INFORMACIÓN] Estado del Hilo 42 : RUNNABLE 
-[2023-05-09 12:19:06] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
-[2023-05-09 12:19:06] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
-[2023-05-09 12:19:06] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 2 
-[2023-05-09 12:19:06] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 2 
-[2023-05-09 12:19:06] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 2 
-[2023-05-09 12:19:06] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
-[2023-05-09 12:19:06] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
-[2023-05-09 12:19:06] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
-[2023-05-09 12:19:06] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
-[2023-05-09 12:19:06] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
-[2023-05-09 12:19:06] [INFORMACIÓN] Estado del Hilo 31 : RUNNABLE 
-[2023-05-09 12:19:06] [INFORMACIÓN] Estado del Hilo 32 : RUNNABLE 
-[2023-05-09 12:19:06] [INFORMACIÓN] Estado del Hilo 33 : RUNNABLE 
-[2023-05-09 12:19:06] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
-[2023-05-09 12:19:06] [INFORMACIÓN] Estado del Hilo 42 : RUNNABLE 
-[2023-05-09 12:19:06] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
-[2023-05-09 12:19:07] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
-[2023-05-09 12:19:07] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 3 
-[2023-05-09 12:19:07] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 2 
-[2023-05-09 12:19:07] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 2 
-[2023-05-09 12:19:07] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
-[2023-05-09 12:19:07] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
-[2023-05-09 12:19:07] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
-[2023-05-09 12:19:07] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
-[2023-05-09 12:19:07] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
-[2023-05-09 12:19:07] [INFORMACIÓN] Estado del Hilo 31 : BLOCKED 
-[2023-05-09 12:19:07] [INFORMACIÓN] Estado del Hilo 32 : TIMED_WAITING 
-[2023-05-09 12:19:07] [INFORMACIÓN] Estado del Hilo 33 : RUNNABLE 
-[2023-05-09 12:19:07] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
-[2023-05-09 12:19:07] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
-[2023-05-09 12:19:07] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
-[2023-05-09 12:19:07] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
-[2023-05-09 12:19:07] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 5 
-[2023-05-09 12:19:07] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 5 
-[2023-05-09 12:19:07] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 5 
-[2023-05-09 12:19:07] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
-[2023-05-09 12:19:07] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
-[2023-05-09 12:19:07] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
-[2023-05-09 12:19:07] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
-[2023-05-09 12:19:07] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
-[2023-05-09 12:19:07] [INFORMACIÓN] Estado del Hilo 31 : RUNNABLE 
-[2023-05-09 12:19:07] [INFORMACIÓN] Estado del Hilo 32 : RUNNABLE 
-[2023-05-09 12:19:07] [INFORMACIÓN] Estado del Hilo 33 : BLOCKED 
-[2023-05-09 12:19:07] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
-[2023-05-09 12:19:07] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
-[2023-05-09 12:19:07] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
-[2023-05-09 12:19:08] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
-[2023-05-09 12:19:08] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 6 
-[2023-05-09 12:19:08] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 6 
-[2023-05-09 12:19:08] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 6 
-[2023-05-09 12:19:08] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
-[2023-05-09 12:19:08] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
-[2023-05-09 12:19:08] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
-[2023-05-09 12:19:08] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
-[2023-05-09 12:19:08] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
-[2023-05-09 12:19:08] [INFORMACIÓN] Estado del Hilo 31 : BLOCKED 
-[2023-05-09 12:19:08] [INFORMACIÓN] Estado del Hilo 32 : BLOCKED 
-[2023-05-09 12:19:08] [INFORMACIÓN] Estado del Hilo 33 : BLOCKED 
-[2023-05-09 12:19:08] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
-[2023-05-09 12:19:08] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
-[2023-05-09 12:19:08] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
-[2023-05-09 12:19:08] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
-[2023-05-09 12:19:08] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 8 
-[2023-05-09 12:19:08] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 8 
-[2023-05-09 12:19:08] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 8 
-[2023-05-09 12:19:08] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
-[2023-05-09 12:19:08] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
-[2023-05-09 12:19:08] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
-[2023-05-09 12:19:08] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
-[2023-05-09 12:19:08] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
-[2023-05-09 12:19:08] [INFORMACIÓN] Estado del Hilo 31 : RUNNABLE 
-[2023-05-09 12:19:08] [INFORMACIÓN] Estado del Hilo 32 : BLOCKED 
-[2023-05-09 12:19:08] [INFORMACIÓN] Estado del Hilo 33 : RUNNABLE 
-[2023-05-09 12:19:08] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
-[2023-05-09 12:19:08] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
-[2023-05-09 12:19:08] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
-[2023-05-09 12:19:09] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
-[2023-05-09 12:19:09] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 12 
-[2023-05-09 12:19:09] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 12 
-[2023-05-09 12:19:09] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 10 
-[2023-05-09 12:19:09] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
-[2023-05-09 12:19:09] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
-[2023-05-09 12:19:09] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
-[2023-05-09 12:19:09] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
-[2023-05-09 12:19:09] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
-[2023-05-09 12:19:09] [INFORMACIÓN] Estado del Hilo 31 : RUNNABLE 
-[2023-05-09 12:19:09] [INFORMACIÓN] Estado del Hilo 32 : RUNNABLE 
-[2023-05-09 12:19:09] [INFORMACIÓN] Estado del Hilo 33 : BLOCKED 
-[2023-05-09 12:19:09] [INFORMACIÓN] Estado del Hilo 41 : TIMED_WAITING 
-[2023-05-09 12:19:09] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
-[2023-05-09 12:19:09] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
-[2023-05-09 12:19:09] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
-[2023-05-09 12:19:09] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 14 
-[2023-05-09 12:19:09] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 14 
-[2023-05-09 12:19:09] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 14 
-[2023-05-09 12:19:09] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
-[2023-05-09 12:19:09] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
-[2023-05-09 12:19:09] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
-[2023-05-09 12:19:09] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
-[2023-05-09 12:19:09] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
-[2023-05-09 12:19:09] [INFORMACIÓN] Estado del Hilo 31 : BLOCKED 
-[2023-05-09 12:19:09] [INFORMACIÓN] Estado del Hilo 32 : BLOCKED 
-[2023-05-09 12:19:09] [INFORMACIÓN] Estado del Hilo 33 : RUNNABLE 
-[2023-05-09 12:19:09] [INFORMACIÓN] Estado del Hilo 41 : RUNNABLE 
-[2023-05-09 12:19:09] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
-[2023-05-09 12:19:09] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
-[2023-05-09 12:19:10] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
-[2023-05-09 12:19:10] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 21 
-[2023-05-09 12:19:10] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 21 
-[2023-05-09 12:19:10] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 21 
-[2023-05-09 12:19:10] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
-[2023-05-09 12:19:10] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
-[2023-05-09 12:19:10] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
-[2023-05-09 12:19:10] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
-[2023-05-09 12:19:10] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
-[2023-05-09 12:19:10] [INFORMACIÓN] Estado del Hilo 31 : RUNNABLE 
-[2023-05-09 12:19:10] [INFORMACIÓN] Estado del Hilo 32 : BLOCKED 
-[2023-05-09 12:19:10] [INFORMACIÓN] Estado del Hilo 33 : BLOCKED 
-[2023-05-09 12:19:10] [INFORMACIÓN] Estado del Hilo 41 : RUNNABLE 
-[2023-05-09 12:19:10] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
-[2023-05-09 12:19:10] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
-[2023-05-09 12:19:10] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
-[2023-05-09 12:19:10] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 27 
-[2023-05-09 12:19:10] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 27 
-[2023-05-09 12:19:10] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 27 
-[2023-05-09 12:19:10] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
-[2023-05-09 12:19:10] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
-[2023-05-09 12:19:10] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
-[2023-05-09 12:19:10] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
-[2023-05-09 12:19:10] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
-[2023-05-09 12:19:10] [INFORMACIÓN] Estado del Hilo 31 : RUNNABLE 
-[2023-05-09 12:19:10] [INFORMACIÓN] Estado del Hilo 32 : BLOCKED 
-[2023-05-09 12:19:10] [INFORMACIÓN] Estado del Hilo 33 : RUNNABLE 
-[2023-05-09 12:19:10] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
-[2023-05-09 12:19:10] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
-[2023-05-09 12:19:10] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
-[2023-05-09 12:19:11] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
-[2023-05-09 12:19:11] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 35 
-[2023-05-09 12:19:11] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 35 
-[2023-05-09 12:19:11] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 35 
-[2023-05-09 12:19:11] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
-[2023-05-09 12:19:11] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
-[2023-05-09 12:19:11] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
-[2023-05-09 12:19:11] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
-[2023-05-09 12:19:11] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
-[2023-05-09 12:19:11] [INFORMACIÓN] Estado del Hilo 31 : BLOCKED 
-[2023-05-09 12:19:11] [INFORMACIÓN] Estado del Hilo 32 : BLOCKED 
-[2023-05-09 12:19:11] [INFORMACIÓN] Estado del Hilo 33 : RUNNABLE 
-[2023-05-09 12:19:11] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
-[2023-05-09 12:19:11] [INFORMACIÓN] Estado del Hilo 42 : RUNNABLE 
-[2023-05-09 12:19:11] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
-[2023-05-09 12:19:11] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
-[2023-05-09 12:19:11] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 44 
-[2023-05-09 12:19:11] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 44 
-[2023-05-09 12:19:11] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 44 
-[2023-05-09 12:19:11] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
-[2023-05-09 12:19:11] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
-[2023-05-09 12:19:11] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
-[2023-05-09 12:19:11] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
-[2023-05-09 12:19:11] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
-[2023-05-09 12:19:11] [INFORMACIÓN] Estado del Hilo 31 : BLOCKED 
-[2023-05-09 12:19:11] [INFORMACIÓN] Estado del Hilo 32 : BLOCKED 
-[2023-05-09 12:19:11] [INFORMACIÓN] Estado del Hilo 33 : RUNNABLE 
-[2023-05-09 12:19:11] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
-[2023-05-09 12:19:11] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
-[2023-05-09 12:19:11] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
-[2023-05-09 12:19:12] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
-[2023-05-09 12:19:12] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 51 
-[2023-05-09 12:19:12] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 51 
-[2023-05-09 12:19:12] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 51 
-[2023-05-09 12:19:12] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
-[2023-05-09 12:19:12] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
-[2023-05-09 12:19:12] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
-[2023-05-09 12:19:12] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
-[2023-05-09 12:19:12] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
-[2023-05-09 12:19:12] [INFORMACIÓN] Estado del Hilo 31 : RUNNABLE 
-[2023-05-09 12:19:12] [INFORMACIÓN] Estado del Hilo 32 : BLOCKED 
-[2023-05-09 12:19:12] [INFORMACIÓN] Estado del Hilo 33 : BLOCKED 
-[2023-05-09 12:19:12] [INFORMACIÓN] Estado del Hilo 41 : RUNNABLE 
-[2023-05-09 12:19:12] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
-[2023-05-09 12:19:12] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
-[2023-05-09 12:19:12] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
-[2023-05-09 12:19:12] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 63 
-[2023-05-09 12:19:12] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 63 
-[2023-05-09 12:19:12] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 63 
-[2023-05-09 12:19:12] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
-[2023-05-09 12:19:12] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
-[2023-05-09 12:19:12] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
-[2023-05-09 12:19:12] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
-[2023-05-09 12:19:12] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
-[2023-05-09 12:19:12] [INFORMACIÓN] Estado del Hilo 31 : BLOCKED 
-[2023-05-09 12:19:12] [INFORMACIÓN] Estado del Hilo 32 : BLOCKED 
-[2023-05-09 12:19:12] [INFORMACIÓN] Estado del Hilo 33 : RUNNABLE 
-[2023-05-09 12:19:12] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
-[2023-05-09 12:19:12] [INFORMACIÓN] Estado del Hilo 42 : RUNNABLE 
-[2023-05-09 12:19:12] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
-[2023-05-09 12:19:13] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
-[2023-05-09 12:19:13] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 77 
-[2023-05-09 12:19:13] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 77 
-[2023-05-09 12:19:13] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 77 
-[2023-05-09 12:19:13] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
-[2023-05-09 12:19:13] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
-[2023-05-09 12:19:13] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
-[2023-05-09 12:19:13] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
-[2023-05-09 12:19:13] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
-[2023-05-09 12:19:13] [INFORMACIÓN] Estado del Hilo 31 : RUNNABLE 
-[2023-05-09 12:19:13] [INFORMACIÓN] Estado del Hilo 32 : BLOCKED 
-[2023-05-09 12:19:13] [INFORMACIÓN] Estado del Hilo 33 : BLOCKED 
-[2023-05-09 12:19:13] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
-[2023-05-09 12:19:13] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
-[2023-05-09 12:19:13] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
-[2023-05-09 12:19:13] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
-[2023-05-09 12:19:13] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 91 
-[2023-05-09 12:19:13] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 91 
-[2023-05-09 12:19:13] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 91 
-[2023-05-09 12:19:13] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
-[2023-05-09 12:19:13] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
-[2023-05-09 12:19:13] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
-[2023-05-09 12:19:13] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
-[2023-05-09 12:19:13] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
-[2023-05-09 12:19:13] [INFORMACIÓN] Estado del Hilo 31 : BLOCKED 
-[2023-05-09 12:19:13] [INFORMACIÓN] Estado del Hilo 32 : BLOCKED 
-[2023-05-09 12:19:13] [INFORMACIÓN] Estado del Hilo 33 : RUNNABLE 
-[2023-05-09 12:19:13] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
-[2023-05-09 12:19:13] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
-[2023-05-09 12:19:13] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
-[2023-05-09 12:19:14] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
-[2023-05-09 12:19:14] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 100 
-[2023-05-09 12:19:14] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 100 
-[2023-05-09 12:19:14] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 100 
-[2023-05-09 12:19:14] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
-[2023-05-09 12:19:14] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
-[2023-05-09 12:19:14] [INFORMACIÓN] Estado del Hilo 21 : TERMINATED 
-[2023-05-09 12:19:14] [INFORMACIÓN] Estado del Hilo 22 : TERMINATED 
-[2023-05-09 12:19:14] [INFORMACIÓN] Estado del Hilo 23 : TERMINATED 
-[2023-05-09 12:19:14] [INFORMACIÓN] Estado del Hilo 31 : TERMINATED 
-[2023-05-09 12:19:14] [INFORMACIÓN] Estado del Hilo 32 : TERMINATED 
-[2023-05-09 12:19:14] [INFORMACIÓN] Estado del Hilo 33 : TERMINATED 
-[2023-05-09 12:19:14] [INFORMACIÓN] Estado del Hilo 41 : TERMINATED 
-[2023-05-09 12:19:14] [INFORMACIÓN] Estado del Hilo 42 : TERMINATED 
-[2023-05-09 12:19:14] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
+[2023-05-09 14:13:34] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 8 
+[2023-05-09 14:13:34] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 0 
+[2023-05-09 14:13:34] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 0 
+[2023-05-09 14:13:34] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 0 
+[2023-05-09 14:13:34] [INFORMACIÓN] Estado del Hilo 11 : TIMED_WAITING 
+[2023-05-09 14:13:34] [INFORMACIÓN] Estado del Hilo 12 : TIMED_WAITING 
+[2023-05-09 14:13:34] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
+[2023-05-09 14:13:34] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
+[2023-05-09 14:13:34] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
+[2023-05-09 14:13:34] [INFORMACIÓN] Estado del Hilo 31 : BLOCKED 
+[2023-05-09 14:13:34] [INFORMACIÓN] Estado del Hilo 32 : BLOCKED 
+[2023-05-09 14:13:34] [INFORMACIÓN] Estado del Hilo 33 : RUNNABLE 
+[2023-05-09 14:13:34] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
+[2023-05-09 14:13:34] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
+[2023-05-09 14:13:34] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
+[2023-05-09 14:13:34] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 73 
+[2023-05-09 14:13:34] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 0 
+[2023-05-09 14:13:34] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 0 
+[2023-05-09 14:13:34] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 0 
+[2023-05-09 14:13:34] [INFORMACIÓN] Estado del Hilo 11 : TIMED_WAITING 
+[2023-05-09 14:13:34] [INFORMACIÓN] Estado del Hilo 12 : TIMED_WAITING 
+[2023-05-09 14:13:34] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
+[2023-05-09 14:13:34] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
+[2023-05-09 14:13:34] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
+[2023-05-09 14:13:34] [INFORMACIÓN] Estado del Hilo 31 : RUNNABLE 
+[2023-05-09 14:13:34] [INFORMACIÓN] Estado del Hilo 32 : RUNNABLE 
+[2023-05-09 14:13:34] [INFORMACIÓN] Estado del Hilo 33 : BLOCKED 
+[2023-05-09 14:13:34] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
+[2023-05-09 14:13:34] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
+[2023-05-09 14:13:34] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
+[2023-05-09 14:13:35] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
+[2023-05-09 14:13:35] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 1 
+[2023-05-09 14:13:35] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 1 
+[2023-05-09 14:13:35] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 1 
+[2023-05-09 14:13:35] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
+[2023-05-09 14:13:35] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
+[2023-05-09 14:13:35] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
+[2023-05-09 14:13:35] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
+[2023-05-09 14:13:35] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
+[2023-05-09 14:13:35] [INFORMACIÓN] Estado del Hilo 31 : BLOCKED 
+[2023-05-09 14:13:35] [INFORMACIÓN] Estado del Hilo 32 : RUNNABLE 
+[2023-05-09 14:13:35] [INFORMACIÓN] Estado del Hilo 33 : BLOCKED 
+[2023-05-09 14:13:35] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
+[2023-05-09 14:13:35] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
+[2023-05-09 14:13:35] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
+[2023-05-09 14:13:35] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
+[2023-05-09 14:13:35] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 1 
+[2023-05-09 14:13:35] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 1 
+[2023-05-09 14:13:35] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 1 
+[2023-05-09 14:13:35] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
+[2023-05-09 14:13:35] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
+[2023-05-09 14:13:35] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
+[2023-05-09 14:13:35] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
+[2023-05-09 14:13:35] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
+[2023-05-09 14:13:35] [INFORMACIÓN] Estado del Hilo 31 : BLOCKED 
+[2023-05-09 14:13:35] [INFORMACIÓN] Estado del Hilo 32 : BLOCKED 
+[2023-05-09 14:13:35] [INFORMACIÓN] Estado del Hilo 33 : RUNNABLE 
+[2023-05-09 14:13:35] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
+[2023-05-09 14:13:35] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
+[2023-05-09 14:13:35] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
+[2023-05-09 14:13:36] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
+[2023-05-09 14:13:36] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 1 
+[2023-05-09 14:13:36] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 1 
+[2023-05-09 14:13:36] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 1 
+[2023-05-09 14:13:36] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
+[2023-05-09 14:13:36] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
+[2023-05-09 14:13:36] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
+[2023-05-09 14:13:36] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
+[2023-05-09 14:13:36] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
+[2023-05-09 14:13:36] [INFORMACIÓN] Estado del Hilo 31 : BLOCKED 
+[2023-05-09 14:13:36] [INFORMACIÓN] Estado del Hilo 32 : BLOCKED 
+[2023-05-09 14:13:36] [INFORMACIÓN] Estado del Hilo 33 : BLOCKED 
+[2023-05-09 14:13:36] [INFORMACIÓN] Estado del Hilo 41 : RUNNABLE 
+[2023-05-09 14:13:36] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
+[2023-05-09 14:13:36] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
+[2023-05-09 14:13:36] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
+[2023-05-09 14:13:36] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 2 
+[2023-05-09 14:13:36] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 2 
+[2023-05-09 14:13:36] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 2 
+[2023-05-09 14:13:36] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
+[2023-05-09 14:13:36] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
+[2023-05-09 14:13:36] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
+[2023-05-09 14:13:36] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
+[2023-05-09 14:13:36] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
+[2023-05-09 14:13:36] [INFORMACIÓN] Estado del Hilo 31 : BLOCKED 
+[2023-05-09 14:13:36] [INFORMACIÓN] Estado del Hilo 32 : BLOCKED 
+[2023-05-09 14:13:36] [INFORMACIÓN] Estado del Hilo 33 : RUNNABLE 
+[2023-05-09 14:13:36] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
+[2023-05-09 14:13:36] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
+[2023-05-09 14:13:36] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
+[2023-05-09 14:13:37] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
+[2023-05-09 14:13:37] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 2 
+[2023-05-09 14:13:37] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 2 
+[2023-05-09 14:13:37] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 2 
+[2023-05-09 14:13:37] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
+[2023-05-09 14:13:37] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
+[2023-05-09 14:13:37] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
+[2023-05-09 14:13:37] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
+[2023-05-09 14:13:37] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
+[2023-05-09 14:13:37] [INFORMACIÓN] Estado del Hilo 31 : BLOCKED 
+[2023-05-09 14:13:37] [INFORMACIÓN] Estado del Hilo 32 : RUNNABLE 
+[2023-05-09 14:13:37] [INFORMACIÓN] Estado del Hilo 33 : RUNNABLE 
+[2023-05-09 14:13:37] [INFORMACIÓN] Estado del Hilo 41 : RUNNABLE 
+[2023-05-09 14:13:37] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
+[2023-05-09 14:13:37] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
+[2023-05-09 14:13:37] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
+[2023-05-09 14:13:37] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 3 
+[2023-05-09 14:13:37] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 3 
+[2023-05-09 14:13:37] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 3 
+[2023-05-09 14:13:37] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
+[2023-05-09 14:13:37] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
+[2023-05-09 14:13:37] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
+[2023-05-09 14:13:37] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
+[2023-05-09 14:13:37] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
+[2023-05-09 14:13:37] [INFORMACIÓN] Estado del Hilo 31 : RUNNABLE 
+[2023-05-09 14:13:37] [INFORMACIÓN] Estado del Hilo 32 : BLOCKED 
+[2023-05-09 14:13:37] [INFORMACIÓN] Estado del Hilo 33 : RUNNABLE 
+[2023-05-09 14:13:37] [INFORMACIÓN] Estado del Hilo 41 : RUNNABLE 
+[2023-05-09 14:13:37] [INFORMACIÓN] Estado del Hilo 42 : RUNNABLE 
+[2023-05-09 14:13:37] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
+[2023-05-09 14:13:38] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
+[2023-05-09 14:13:38] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 3 
+[2023-05-09 14:13:38] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 3 
+[2023-05-09 14:13:38] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 3 
+[2023-05-09 14:13:38] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
+[2023-05-09 14:13:38] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
+[2023-05-09 14:13:38] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
+[2023-05-09 14:13:38] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
+[2023-05-09 14:13:38] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
+[2023-05-09 14:13:38] [INFORMACIÓN] Estado del Hilo 31 : RUNNABLE 
+[2023-05-09 14:13:38] [INFORMACIÓN] Estado del Hilo 32 : BLOCKED 
+[2023-05-09 14:13:38] [INFORMACIÓN] Estado del Hilo 33 : RUNNABLE 
+[2023-05-09 14:13:38] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
+[2023-05-09 14:13:38] [INFORMACIÓN] Estado del Hilo 42 : RUNNABLE 
+[2023-05-09 14:13:38] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
+[2023-05-09 14:13:38] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
+[2023-05-09 14:13:38] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 6 
+[2023-05-09 14:13:38] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 6 
+[2023-05-09 14:13:38] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 6 
+[2023-05-09 14:13:38] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
+[2023-05-09 14:13:38] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
+[2023-05-09 14:13:38] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
+[2023-05-09 14:13:38] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
+[2023-05-09 14:13:38] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
+[2023-05-09 14:13:38] [INFORMACIÓN] Estado del Hilo 31 : BLOCKED 
+[2023-05-09 14:13:38] [INFORMACIÓN] Estado del Hilo 32 : RUNNABLE 
+[2023-05-09 14:13:38] [INFORMACIÓN] Estado del Hilo 33 : BLOCKED 
+[2023-05-09 14:13:38] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
+[2023-05-09 14:13:38] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
+[2023-05-09 14:13:38] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
+[2023-05-09 14:13:39] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
+[2023-05-09 14:13:39] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 9 
+[2023-05-09 14:13:39] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 9 
+[2023-05-09 14:13:39] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 9 
+[2023-05-09 14:13:39] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
+[2023-05-09 14:13:39] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
+[2023-05-09 14:13:39] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
+[2023-05-09 14:13:39] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
+[2023-05-09 14:13:39] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
+[2023-05-09 14:13:39] [INFORMACIÓN] Estado del Hilo 31 : BLOCKED 
+[2023-05-09 14:13:39] [INFORMACIÓN] Estado del Hilo 32 : RUNNABLE 
+[2023-05-09 14:13:39] [INFORMACIÓN] Estado del Hilo 33 : RUNNABLE 
+[2023-05-09 14:13:39] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
+[2023-05-09 14:13:39] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
+[2023-05-09 14:13:39] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
+[2023-05-09 14:13:39] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
+[2023-05-09 14:13:39] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 14 
+[2023-05-09 14:13:39] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 14 
+[2023-05-09 14:13:39] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 14 
+[2023-05-09 14:13:39] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
+[2023-05-09 14:13:39] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
+[2023-05-09 14:13:39] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
+[2023-05-09 14:13:39] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
+[2023-05-09 14:13:39] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
+[2023-05-09 14:13:39] [INFORMACIÓN] Estado del Hilo 31 : RUNNABLE 
+[2023-05-09 14:13:39] [INFORMACIÓN] Estado del Hilo 32 : RUNNABLE 
+[2023-05-09 14:13:39] [INFORMACIÓN] Estado del Hilo 33 : RUNNABLE 
+[2023-05-09 14:13:39] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
+[2023-05-09 14:13:39] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
+[2023-05-09 14:13:39] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
+[2023-05-09 14:13:40] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
+[2023-05-09 14:13:40] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 18 
+[2023-05-09 14:13:40] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 18 
+[2023-05-09 14:13:40] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 18 
+[2023-05-09 14:13:40] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
+[2023-05-09 14:13:40] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
+[2023-05-09 14:13:40] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
+[2023-05-09 14:13:40] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
+[2023-05-09 14:13:40] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
+[2023-05-09 14:13:40] [INFORMACIÓN] Estado del Hilo 31 : BLOCKED 
+[2023-05-09 14:13:40] [INFORMACIÓN] Estado del Hilo 32 : RUNNABLE 
+[2023-05-09 14:13:40] [INFORMACIÓN] Estado del Hilo 33 : BLOCKED 
+[2023-05-09 14:13:40] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
+[2023-05-09 14:13:40] [INFORMACIÓN] Estado del Hilo 42 : RUNNABLE 
+[2023-05-09 14:13:40] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
+[2023-05-09 14:13:40] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
+[2023-05-09 14:13:40] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 24 
+[2023-05-09 14:13:40] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 24 
+[2023-05-09 14:13:40] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 24 
+[2023-05-09 14:13:40] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
+[2023-05-09 14:13:40] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
+[2023-05-09 14:13:40] [INFORMACIÓN] Estado del Hilo 21 : BLOCKED 
+[2023-05-09 14:13:40] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
+[2023-05-09 14:13:40] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
+[2023-05-09 14:13:40] [INFORMACIÓN] Estado del Hilo 31 : BLOCKED 
+[2023-05-09 14:13:40] [INFORMACIÓN] Estado del Hilo 32 : BLOCKED 
+[2023-05-09 14:13:40] [INFORMACIÓN] Estado del Hilo 33 : BLOCKED 
+[2023-05-09 14:13:40] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
+[2023-05-09 14:13:40] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
+[2023-05-09 14:13:40] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
+[2023-05-09 14:13:41] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
+[2023-05-09 14:13:41] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 30 
+[2023-05-09 14:13:41] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 30 
+[2023-05-09 14:13:41] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 30 
+[2023-05-09 14:13:41] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
+[2023-05-09 14:13:41] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
+[2023-05-09 14:13:41] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
+[2023-05-09 14:13:41] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
+[2023-05-09 14:13:41] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
+[2023-05-09 14:13:41] [INFORMACIÓN] Estado del Hilo 31 : BLOCKED 
+[2023-05-09 14:13:41] [INFORMACIÓN] Estado del Hilo 32 : BLOCKED 
+[2023-05-09 14:13:41] [INFORMACIÓN] Estado del Hilo 33 : RUNNABLE 
+[2023-05-09 14:13:41] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
+[2023-05-09 14:13:41] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
+[2023-05-09 14:13:41] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
+[2023-05-09 14:13:41] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
+[2023-05-09 14:13:41] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 37 
+[2023-05-09 14:13:41] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 37 
+[2023-05-09 14:13:41] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 37 
+[2023-05-09 14:13:41] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
+[2023-05-09 14:13:41] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
+[2023-05-09 14:13:41] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
+[2023-05-09 14:13:41] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
+[2023-05-09 14:13:41] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
+[2023-05-09 14:13:41] [INFORMACIÓN] Estado del Hilo 31 : RUNNABLE 
+[2023-05-09 14:13:41] [INFORMACIÓN] Estado del Hilo 32 : RUNNABLE 
+[2023-05-09 14:13:41] [INFORMACIÓN] Estado del Hilo 33 : RUNNABLE 
+[2023-05-09 14:13:41] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
+[2023-05-09 14:13:41] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
+[2023-05-09 14:13:41] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
+[2023-05-09 14:13:42] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
+[2023-05-09 14:13:42] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 46 
+[2023-05-09 14:13:42] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 46 
+[2023-05-09 14:13:42] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 46 
+[2023-05-09 14:13:42] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
+[2023-05-09 14:13:42] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
+[2023-05-09 14:13:42] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
+[2023-05-09 14:13:42] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
+[2023-05-09 14:13:42] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
+[2023-05-09 14:13:42] [INFORMACIÓN] Estado del Hilo 31 : RUNNABLE 
+[2023-05-09 14:13:42] [INFORMACIÓN] Estado del Hilo 32 : RUNNABLE 
+[2023-05-09 14:13:42] [INFORMACIÓN] Estado del Hilo 33 : BLOCKED 
+[2023-05-09 14:13:42] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
+[2023-05-09 14:13:42] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
+[2023-05-09 14:13:42] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
+[2023-05-09 14:13:42] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
+[2023-05-09 14:13:42] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 54 
+[2023-05-09 14:13:42] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 54 
+[2023-05-09 14:13:42] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 54 
+[2023-05-09 14:13:42] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
+[2023-05-09 14:13:42] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
+[2023-05-09 14:13:42] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
+[2023-05-09 14:13:42] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
+[2023-05-09 14:13:42] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
+[2023-05-09 14:13:42] [INFORMACIÓN] Estado del Hilo 31 : RUNNABLE 
+[2023-05-09 14:13:42] [INFORMACIÓN] Estado del Hilo 32 : BLOCKED 
+[2023-05-09 14:13:42] [INFORMACIÓN] Estado del Hilo 33 : RUNNABLE 
+[2023-05-09 14:13:42] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
+[2023-05-09 14:13:42] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
+[2023-05-09 14:13:42] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
+[2023-05-09 14:13:43] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
+[2023-05-09 14:13:43] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 66 
+[2023-05-09 14:13:43] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 66 
+[2023-05-09 14:13:43] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 66 
+[2023-05-09 14:13:43] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
+[2023-05-09 14:13:43] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
+[2023-05-09 14:13:43] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
+[2023-05-09 14:13:43] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
+[2023-05-09 14:13:43] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
+[2023-05-09 14:13:43] [INFORMACIÓN] Estado del Hilo 31 : BLOCKED 
+[2023-05-09 14:13:43] [INFORMACIÓN] Estado del Hilo 32 : RUNNABLE 
+[2023-05-09 14:13:43] [INFORMACIÓN] Estado del Hilo 33 : BLOCKED 
+[2023-05-09 14:13:43] [INFORMACIÓN] Estado del Hilo 41 : RUNNABLE 
+[2023-05-09 14:13:43] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
+[2023-05-09 14:13:43] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
+[2023-05-09 14:13:43] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
+[2023-05-09 14:13:43] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 75 
+[2023-05-09 14:13:43] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 75 
+[2023-05-09 14:13:43] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 75 
+[2023-05-09 14:13:43] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
+[2023-05-09 14:13:43] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
+[2023-05-09 14:13:43] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
+[2023-05-09 14:13:43] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
+[2023-05-09 14:13:43] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
+[2023-05-09 14:13:43] [INFORMACIÓN] Estado del Hilo 31 : BLOCKED 
+[2023-05-09 14:13:43] [INFORMACIÓN] Estado del Hilo 32 : RUNNABLE 
+[2023-05-09 14:13:43] [INFORMACIÓN] Estado del Hilo 33 : BLOCKED 
+[2023-05-09 14:13:43] [INFORMACIÓN] Estado del Hilo 41 : BLOCKED 
+[2023-05-09 14:13:43] [INFORMACIÓN] Estado del Hilo 42 : RUNNABLE 
+[2023-05-09 14:13:43] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
+[2023-05-09 14:13:44] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
+[2023-05-09 14:13:44] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 89 
+[2023-05-09 14:13:44] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 89 
+[2023-05-09 14:13:44] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 89 
+[2023-05-09 14:13:44] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
+[2023-05-09 14:13:44] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
+[2023-05-09 14:13:44] [INFORMACIÓN] Estado del Hilo 21 : TIMED_WAITING 
+[2023-05-09 14:13:44] [INFORMACIÓN] Estado del Hilo 22 : TIMED_WAITING 
+[2023-05-09 14:13:44] [INFORMACIÓN] Estado del Hilo 23 : TIMED_WAITING 
+[2023-05-09 14:13:44] [INFORMACIÓN] Estado del Hilo 31 : BLOCKED 
+[2023-05-09 14:13:44] [INFORMACIÓN] Estado del Hilo 32 : RUNNABLE 
+[2023-05-09 14:13:44] [INFORMACIÓN] Estado del Hilo 33 : BLOCKED 
+[2023-05-09 14:13:44] [INFORMACIÓN] Estado del Hilo 41 : RUNNABLE 
+[2023-05-09 14:13:44] [INFORMACIÓN] Estado del Hilo 42 : BLOCKED 
+[2023-05-09 14:13:44] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
+[2023-05-09 14:13:45] [INFORMACIÓN] Cantidad de imágenes insertadas en el primer contenedor  : 100 
+[2023-05-09 14:13:45] [INFORMACIÓN] Cantidad de imágenes completamente mejoradas  : 100 
+[2023-05-09 14:13:45] [INFORMACIÓN] Cantidad de imágenes ajustadas  : 100 
+[2023-05-09 14:13:45] [INFORMACIÓN] Cantidad de imágenes traspasadas al segundo contenedor  : 100 
+[2023-05-09 14:13:45] [INFORMACIÓN] Estado del Hilo 11 : TERMINATED 
+[2023-05-09 14:13:45] [INFORMACIÓN] Estado del Hilo 12 : TERMINATED 
+[2023-05-09 14:13:45] [INFORMACIÓN] Estado del Hilo 21 : TERMINATED 
+[2023-05-09 14:13:45] [INFORMACIÓN] Estado del Hilo 22 : TERMINATED 
+[2023-05-09 14:13:45] [INFORMACIÓN] Estado del Hilo 23 : TERMINATED 
+[2023-05-09 14:13:45] [INFORMACIÓN] Estado del Hilo 31 : TERMINATED 
+[2023-05-09 14:13:45] [INFORMACIÓN] Estado del Hilo 32 : TERMINATED 
+[2023-05-09 14:13:45] [INFORMACIÓN] Estado del Hilo 33 : TERMINATED 
+[2023-05-09 14:13:45] [INFORMACIÓN] Estado del Hilo 41 : TERMINATED 
+[2023-05-09 14:13:45] [INFORMACIÓN] Estado del Hilo 42 : TERMINATED 
+[2023-05-09 14:13:45] [INFORMACIÓN] ----------------------------------------------------------------------------------------- 
