@@ -8,7 +8,6 @@ public class Process1 implements Runnable{
 
 
 
-
     /**
      * Constructor con parámetros.
      * Inicializa las variables de instancia.
